@@ -79,7 +79,7 @@
             </foliageShape>
         </foliageState>
         <!-- 1 0 0 0 - tire tracks (harvested) -->
-        <foliageState name="tire tracks" width="1.2" height="1.35" >
+        <foliageState name="tire tracks" width="2.5" height="0.5" >
             <foliageShape>
                 <foliageLod blockShape="0>0|5" />
                 <foliageLod blockShape="0>1|5" />
