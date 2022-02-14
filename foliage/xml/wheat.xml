@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<foliageType distanceTexturePath="../textures">
+    <!-- wheat
+
+    0 1 2 3
+
+    1 0 0 0 - invisible
+    0 1 0 0 - green small
+    1 1 0 0 - green small
+    0 0 1 0 - green middle
+    1 0 1 0 - green middle 2
+    0 1 1 0 - green big
+    1 1 1 0 - green big 2
+    0 0 0 1 - harvest ready
+    1 0 0 1 - dead
+    0 1 0 1 - harvested (cut)
+	1 0 0 0 - tire tracks (harvested)
+
+    -->
+    <foliageLayer cellSize="8" objectMask="16711935" decalLayer="0" densityMapChannelOffset="0" numDensityMapChannels="4" numBlocksPerUnit="1.8" shapeSource="../i3d/wheat.i3d">
+        <foliageStateDefaults distanceMapLayer="1" width="1.0" height="1.0" widthVariance="0.2" heightVariance="0.2" horizontalPositionVariance="0.5" />
+        <!-- default LOD distances etc -->
+        <foliageLodDefaults lod="0" viewDistance="18" blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1" />
+        <foliageLodDefaults lod="1" viewDistance="80" blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1" />
+        <!-- 1 0 0 0 - invisible -->
+        <foliageState name="invisible" />
+        <!-- 0 1 0 0 - green small -->
+        <foliageState name="green small" numBlocksPerUnit="2.1" distanceMap="distance/foliage_wheat_distance2_diffuse.png" >
+            <foliageShape>
+                <foliageLod blockShape="0>0|0" />
+                <foliageLod blockShape="0>1|0" />
+                <!-- <foliageLod blockShape="0>1|0" /> -->
+            </foliageShape>
+        </foliageState>
+        <!-- 1 1 0 0 - green small -->
+        <foliageState name="green small 2" numBlocksPerUnit="2.1" distanceMap="distance/foliage_wheat_distance2_diffuse.png" >
+            <foliageShape>
+                <foliageLod blockShape="0>0|0" />
+                <foliageLod blockShape="0>1|0" />
+                <!-- <foliageLod blockShape="0>1|0" /> -->
+            </foliageShape>
+        </foliageState>
+        <!-- 0 0 1 0 - green middle -->
+        <foliageState name="green middle" distanceMap="distance/foliage_wheat_distance3_diffuse.png" >
+            <foliageShape>
+                <foliageLod blockShape="0>0|1" />
+                <foliageLod blockShape="0>1|1" />
+                <!-- <foliageLod blockShape="0>1|1" /> -->
+            </foliageShape>
+        </foliageState>
+        <!-- 1 0 1 0 - green middle 2 -->
+        <foliageState name="green middle 2" distanceMap="distance/foliage_wheat_distance3_diffuse.png" >
+            <foliageShape>
+                <foliageLod blockShape="0>0|1" />
+                <foliageLod blockShape="0>1|1" />
+                <!-- <foliageLod blockShape="0>1|1" /> -->
+            </foliageShape>
+        </foliageState>
+        <!-- 0 1 1 0 - green big -->
+        <foliageState name="green big" distanceMap="distance/foliage_wheat_distance4_diffuse.png" >
+            <foliageShape>
+                <foliageLod blockShape="0>0|2" />
+                <foliageLod blockShape="0>1|2" />
+                <!-- <foliageLod blockShape="0>1|2" /> -->
+            </foliageShape>
+        </foliageState>
+        <!-- 1 1 1 0 - green big 2 -->
+        <foliageState name="green big 2" distanceMap="distance/foliage_wheat_distance4_diffuse.png" >
+            <foliageShape>
+                <foliageLod blockShape="0>0|2" />
+                <foliageLod blockShape="0>1|2" />
+                <!-- <foliageLod blockShape="0>1|2" /> -->
+            </foliageShape>
+        </foliageState>
+        <!-- 0 0 0 1 - harvest ready-->
+        <foliageState name="harvest ready" numBlocksPerUnit="1.8" width="1.3" distanceMap="distance/foliage_wheat_distance5_diffuse.png" >
+            <foliageShape>
+                <foliageLod blockShape="0>0|3" />
+                <foliageLod blockShape="0>1|3" />
+                <!-- <foliageLod blockShape="0>1|3" /> -->
+            </foliageShape>
+        </foliageState>
+        <!-- 1 0 0 1 - dead -->
+        <foliageState name="dead" distanceMap="distance/foliage_wheat_distance6_diffuse.png" >
+            <foliageShape>
+                <foliageLod blockShape="0>0|4" />
+                <foliageLod blockShape="0>1|4" />
+                <!-- <foliageLod blockShape="0>1|4" /> -->
+            </foliageShape>
+        </foliageState>
+        <!-- 0 1 0 1 - harvested (cut) -->
+        <foliageState name="harvested" width="1.3" height="1.75" >
+            <foliageShape>
+                <foliageLod blockShape="0>0|5" />
+                <foliageLod blockShape="0>1|5" />
+                <!-- <foliageLod blockShape="0>1|5" /> -->
+            </foliageShape>
+        </foliageState>
+        <!-- 1 0 0 0 - tire tracks (harvested) -->
+        <foliageState name="tire tracks" width="1.3" height="0.75" >
+            <foliageShape>
+                <foliageLod blockShape="0>0|5" />
+                <foliageLod blockShape="0>1|5" />
+                <!-- <foliageLod blockShape="0>1|5" /> -->
+            </foliageShape>
+        </foliageState>
+        <!--  -->
+    </foliageLayer>
+</foliageType>
