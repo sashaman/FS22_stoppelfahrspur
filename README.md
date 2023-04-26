@@ -12,16 +12,16 @@ die xml Dateien der Früchte müssen in der map.i3d auf den neuen Pfad aktualisi
 Bsp. 
 
 ```xml
-<File fileId="226" filename="foliage/xml/barley.xml"/>
-<File fileId="225" filename="foliage/xml/canola.xml"/>
+<File fileId="226" filename="foliage/barley/barley.xml"/>
+<File fileId="225" filename="foliage/canola/canola.xml"/>
 ```
 
 
 
 ## map.xml
 
-Der Pfad zur fruittypes.xml muß in der map.xml aktualisiert werden
+Der Pfad zur fruittypes.xml muß in der map.xml aktualisiert werden (oder stattdessen die vorhandene ersetzen)
 
 ```xml
-<fruitTypes filename="maps/xml/maps_fruitTypes.xml" />
+<fruitTypes filename="xml/maps_fruitTypes.xml" />
 ```
