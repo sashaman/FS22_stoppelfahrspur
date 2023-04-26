@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="wheat" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="28" filename="$data/foliage/wheat/wheatStage01LOD1_alpha.png" />
+    <File fileId="26" filename="$data/foliage/wheat/wheatStage01LOD1_diffuse.png" />
+    <File fileId="27" filename="$data/foliage/wheat/wheatStage01LOD1_normal.png" />
+    <File fileId="5" filename="$data/foliage/wheat/wheatStage01_alpha.png" />
+    <File fileId="1" filename="$data/foliage/wheat/wheatStage01_diffuse.png" />
+    <File fileId="3" filename="$data/foliage/wheat/wheatStage01_fmask.png" />
+    <File fileId="2" filename="$data/foliage/wheat/wheatStage01_normal.png" />
+    <File fileId="31" filename="$data/foliage/wheat/wheatStage02LOD1_alpha.png" />
+    <File fileId="29" filename="$data/foliage/wheat/wheatStage02LOD1_diffuse.png" />
+    <File fileId="30" filename="$data/foliage/wheat/wheatStage02LOD1_normal.png" />
+    <File fileId="9" filename="$data/foliage/wheat/wheatStage02_alpha.png" />
+    <File fileId="6" filename="$data/foliage/wheat/wheatStage02_diffuse.png" />
+    <File fileId="8" filename="$data/foliage/wheat/wheatStage02_fmask.png" />
+    <File fileId="7" filename="$data/foliage/wheat/wheatStage02_normal.png" />
+    <File fileId="34" filename="$data/foliage/wheat/wheatStage03LOD1_alpha.png" />
+    <File fileId="32" filename="$data/foliage/wheat/wheatStage03LOD1_diffuse.png" />
+    <File fileId="33" filename="$data/foliage/wheat/wheatStage03LOD1_normal.png" />
+    <File fileId="13" filename="$data/foliage/wheat/wheatStage03_alpha.png" />
+    <File fileId="10" filename="$data/foliage/wheat/wheatStage03_diffuse.png" />
+    <File fileId="12" filename="$data/foliage/wheat/wheatStage03_fmask.png" />
+    <File fileId="11" filename="$data/foliage/wheat/wheatStage03_normal.png" />
+    <File fileId="37" filename="$data/foliage/wheat/wheatStage04LOD1_alpha.png" />
+    <File fileId="35" filename="$data/foliage/wheat/wheatStage04LOD1_diffuse.png" />
+    <File fileId="36" filename="$data/foliage/wheat/wheatStage04LOD1_normal.png" />
+    <File fileId="17" filename="$data/foliage/wheat/wheatStage04_alpha.png" />
+    <File fileId="14" filename="$data/foliage/wheat/wheatStage04_diffuse.png" />
+    <File fileId="16" filename="$data/foliage/wheat/wheatStage04_fmask.png" />
+    <File fileId="15" filename="$data/foliage/wheat/wheatStage04_normal.png" />
+    <File fileId="40" filename="$data/foliage/wheat/wheatStage05LOD1_alpha.png" />
+    <File fileId="38" filename="$data/foliage/wheat/wheatStage05LOD1_diffuse.png" />
+    <File fileId="39" filename="$data/foliage/wheat/wheatStage05LOD1_normal.png" />
+    <File fileId="21" filename="$data/foliage/wheat/wheatStage05_alpha.png" />
+    <File fileId="18" filename="$data/foliage/wheat/wheatStage05_diffuse.png" />
+    <File fileId="20" filename="$data/foliage/wheat/wheatStage05_fmask.png" />
+    <File fileId="19" filename="$data/foliage/wheat/wheatStage05_normal.png" />
+    <File fileId="43" filename="$data/foliage/wheat/wheatStage06LOD1_alpha.png" />
+    <File fileId="41" filename="$data/foliage/wheat/wheatStage06LOD1_diffuse.png" />
+    <File fileId="42" filename="$data/foliage/wheat/wheatStage06LOD1_normal.png" />
+    <File fileId="25" filename="$data/foliage/wheat/wheatStage06_alpha.png" />
+    <File fileId="22" filename="$data/foliage/wheat/wheatStage06_diffuse.png" />
+    <File fileId="24" filename="$data/foliage/wheat/wheatStage06_fmask.png" />
+    <File fileId="23" filename="$data/foliage/wheat/wheatStage06_normal.png" />
+    <File fileId="4" filename="$data/shaders/fruitGrowthFoliageShader.xml" />
+  </Files>
+
+  <Materials>
+    <Material name="wheatStage01_mat" materialId="1" customShaderId="4">
+      <CustomParameter name="snowScale" value="0.3"/>
+      <Custommap name="alphaMap" fileId="5"/>
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="wheatStage02_mat" materialId="2" customShaderId="4">
+      <CustomParameter name="snowScale" value="0.3"/>
+      <Custommap name="alphaMap" fileId="9"/>
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+      <Glossmap fileId="8"/>
+    </Material>
+    <Material name="wheatStage03_mat" materialId="3" customShaderId="4">
+      <CustomParameter name="snowScale" value="0.3"/>
+      <Custommap name="alphaMap" fileId="13"/>
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+    </Material>
+    <Material name="wheatStage04_mat" materialId="4" customShaderId="4">
+      <CustomParameter name="snowScale" value="0.3"/>
+      <Custommap name="alphaMap" fileId="17"/>
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
+    </Material>
+    <Material name="wheatStage05_mat" materialId="5" customShaderId="4">
+      <CustomParameter name="snowScale" value="0.3"/>
+      <Custommap name="alphaMap" fileId="21"/>
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+      <Glossmap fileId="20"/>
+    </Material>
+    <Material name="wheatStage06_mat" materialId="6" customShaderId="4">
+      <CustomParameter name="snowScale" value="0.3"/>
+      <Custommap name="alphaMap" fileId="25"/>
+      <Texture fileId="22"/>
+      <Normalmap fileId="23"/>
+      <Glossmap fileId="24"/>
+    </Material>
+    <Material name="wheatStage01LOD1_mat" materialId="7" specularColor="0.1529 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+      <CustomParameter name="snowScale" value="0.22"/>
+      <Custommap name="alphaMap" fileId="28"/>
+      <Texture fileId="26"/>
+      <Normalmap fileId="27"/>
+    </Material>
+    <Material name="wheatStage02LOD1_mat" materialId="8" specularColor="0.145 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+      <CustomParameter name="snowScale" value="0.22"/>
+      <Custommap name="alphaMap" fileId="31"/>
+      <Texture fileId="29"/>
+      <Normalmap fileId="30"/>
+    </Material>
+    <Material name="wheatStage03LOD1_mat" materialId="9" specularColor="0.149 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+      <CustomParameter name="snowScale" value="0.22"/>
+      <Custommap name="alphaMap" fileId="34"/>
+      <Texture fileId="32"/>
+      <Normalmap fileId="33"/>
+    </Material>
+    <Material name="wheatStage04LOD1_mat" materialId="10" specularColor="0.1176 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+      <CustomParameter name="snowScale" value="0.22"/>
+      <Custommap name="alphaMap" fileId="37"/>
+      <Texture fileId="35"/>
+      <Normalmap fileId="36"/>
+    </Material>
+    <Material name="wheatStage05LOD1_mat" materialId="11" specularColor="0.1098 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+      <CustomParameter name="snowScale" value="0.22"/>
+      <Custommap name="alphaMap" fileId="40"/>
+      <Texture fileId="38"/>
+      <Normalmap fileId="39"/>
+    </Material>
+    <Material name="wheatStage06LOD1_mat" materialId="12" specularColor="0.0666 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+      <CustomParameter name="snowScale" value="0.22"/>
+      <Custommap name="alphaMap" fileId="43"/>
+      <Texture fileId="41"/>
+      <Normalmap fileId="42"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="wheat.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="wheat" nodeId="1">
+      <TransformGroup name="LOD0" nodeId="2">
+        <Shape name="stage1_greenSmall" shapeId="1" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="3"/>
+        <Shape name="stage2_greenMiddle" shapeId="2" castsShadows="true" receiveShadows="true" materialIds="2" clipDistance="500" nodeId="4"/>
+        <Shape name="stage3_greenBig" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="5"/>
+        <Shape name="stage4_harvestReady" shapeId="4" castsShadows="true" receiveShadows="true" materialIds="4" clipDistance="500" nodeId="6"/>
+        <Shape name="stage5_dead" shapeId="5" castsShadows="true" receiveShadows="true" materialIds="5" clipDistance="500" nodeId="7"/>
+        <Shape name="satge6_cut" shapeId="6" castsShadows="true" receiveShadows="true" materialIds="6" clipDistance="500" nodeId="8"/>
+      </TransformGroup>
+      <TransformGroup name="LOD1" nodeId="9">
+        <Shape name="stage1_greenSmallLOD1" shapeId="7" castsShadows="false" receiveShadows="true" materialIds="7" clipDistance="500" nodeId="10"/>
+        <Shape name="stage2_greenMiddleLOD1" shapeId="8" castsShadows="false" receiveShadows="true" materialIds="8" clipDistance="500" nodeId="11"/>
+        <Shape name="stage3_greenBigLOD1" shapeId="9" castsShadows="false" receiveShadows="true" materialIds="9" clipDistance="500" nodeId="12"/>
+        <Shape name="stage4_harvestReadyLOD1" shapeId="10" castsShadows="false" receiveShadows="true" materialIds="10" clipDistance="500" nodeId="13"/>
+        <Shape name="stage5_deadLOD1" shapeId="11" castsShadows="false" receiveShadows="true" materialIds="11" clipDistance="500" nodeId="14"/>
+        <Shape name="satge6_cutLOD1" shapeId="12" castsShadows="false" receiveShadows="true" materialIds="12" clipDistance="500" nodeId="15"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+  </UserAttributes>
+</i3D>

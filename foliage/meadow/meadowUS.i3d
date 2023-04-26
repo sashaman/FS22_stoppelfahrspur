@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="meadowUS" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="11" filename="$data/foliage/decoFoliage/weedUSLOD_ba_apera_alpha_H.png" />
+    <File fileId="9" filename="$data/foliage/decoFoliage/weedUSLOD_ba_apera_diffuse_H.png" />
+    <File fileId="10" filename="$data/foliage/decoFoliage/weedUSLOD_ba_apera_normal_H.png" />
+    <File fileId="14" filename="$data/foliage/decoFoliage/weedUSLOD_ba_chaerophyllum_alpha_H.png" />
+    <File fileId="12" filename="$data/foliage/decoFoliage/weedUSLOD_ba_chaerophyllum_diffuse_H.png" />
+    <File fileId="13" filename="$data/foliage/decoFoliage/weedUSLOD_ba_chaerophyllum_normal_H.png" />
+    <File fileId="17" filename="$data/foliage/decoFoliage/weedUSLOD_ba_chenopodium_alpha_H.png" />
+    <File fileId="15" filename="$data/foliage/decoFoliage/weedUSLOD_ba_chenopodium_diffuse_H.png" />
+    <File fileId="16" filename="$data/foliage/decoFoliage/weedUSLOD_ba_chenopodium_normal_H.png" />
+    <File fileId="20" filename="$data/foliage/decoFoliage/weedUSLOD_ba_papaverRhoeas_alpha_H.png" />
+    <File fileId="18" filename="$data/foliage/decoFoliage/weedUSLOD_ba_papaverRhoeas_diffuse_H.png" />
+    <File fileId="19" filename="$data/foliage/decoFoliage/weedUSLOD_ba_papaverRhoeas_normal_H.png" />
+    <File fileId="23" filename="$data/foliage/decoFoliage/weedUSLOD_ba_rumex_alpha_H.png" />
+    <File fileId="21" filename="$data/foliage/decoFoliage/weedUSLOD_ba_rumex_diffuse_H.png" />
+    <File fileId="22" filename="$data/foliage/decoFoliage/weedUSLOD_ba_rumex_normal_H.png" />
+    <File fileId="8" filename="$data/foliage/decoFoliage/weedUS_alpha.png" />
+    <File fileId="6" filename="$data/foliage/decoFoliage/weedUS_diffuse.png" />
+    <File fileId="7" filename="$data/foliage/decoFoliage/weedUS_normal.png" />
+    <File fileId="5" filename="$data/foliage/meadow/meadowUS_alpha.png" />
+    <!-- <File fileId="1" filename="$data/foliage/meadow/meadowUS_diffuse.png" /> -->
+    <File fileId="1" filename="../textures/meadowFR/meadow_diffuse.png" />
+    <File fileId="2" filename="$data/foliage/meadow/meadowUS_normal.png" />
+    <File fileId="38" filename="$data/foliage/meadow/meadowUSdayLilyPureHarvestReady_alpha.png" />
+    <File fileId="36" filename="$data/foliage/meadow/meadowUSdayLilyPureHarvestReady_diffuse.png" />
+    <File fileId="37" filename="$data/foliage/meadow/meadowUSdayLilyPureHarvestReady_normal.png" />
+    <File fileId="47" filename="$data/foliage/meadow/meadowUSdryGrassGreenMiddleLOD1_alpha.png" />
+    <File fileId="45" filename="$data/foliage/meadow/meadowUSdryGrassGreenMiddleLOD1_diffuse.png" />
+    <File fileId="46" filename="$data/foliage/meadow/meadowUSdryGrassGreenMiddleLOD1_normal.png" />
+    <File fileId="44" filename="$data/foliage/meadow/meadowUSdryGrassGreenSmallLOD1_alpha.png" />
+    <File fileId="42" filename="$data/foliage/meadow/meadowUSdryGrassGreenSmallLOD1_diffuse.png" />
+    <File fileId="43" filename="$data/foliage/meadow/meadowUSdryGrassGreenSmallLOD1_normal.png" />
+    <File fileId="50" filename="$data/foliage/meadow/meadowUSdryGrassHarvestReadyLOD1_alpha.png" />
+    <File fileId="48" filename="$data/foliage/meadow/meadowUSdryGrassHarvestReadyLOD1_diffuse.png" />
+    <File fileId="49" filename="$data/foliage/meadow/meadowUSdryGrassHarvestReadyLOD1_normal.png" />
+    <File fileId="56" filename="$data/foliage/meadow/meadowUSgrassDayLilyHarvestReady2LOD1_alpha.png" />
+    <File fileId="54" filename="$data/foliage/meadow/meadowUSgrassDayLilyHarvestReady2LOD1_diffuse.png" />
+    <File fileId="55" filename="$data/foliage/meadow/meadowUSgrassDayLilyHarvestReady2LOD1_normal.png" />
+    <File fileId="53" filename="$data/foliage/meadow/meadowUSgrassDayLilyHarvestReadyLOD1_alpha.png" />
+    <File fileId="51" filename="$data/foliage/meadow/meadowUSgrassDayLilyHarvestReadyLOD1_diffuse.png" />
+    <File fileId="52" filename="$data/foliage/meadow/meadowUSgrassDayLilyHarvestReadyLOD1_normal.png" />
+    <File fileId="35" filename="$data/foliage/meadow/meadowUSgrassPureCut_alpha.png" />
+    <File fileId="33" filename="$data/foliage/meadow/meadowUSgrassPureCut_diffuse.png" />
+    <File fileId="34" filename="$data/foliage/meadow/meadowUSgrassPureCut_normal.png" />
+    <File fileId="29" filename="$data/foliage/meadow/meadowUSgrassPureGreenMiddle_alpha.png" />
+    <File fileId="27" filename="$data/foliage/meadow/meadowUSgrassPureGreenMiddle_diffuse.png" />
+    <File fileId="28" filename="$data/foliage/meadow/meadowUSgrassPureGreenMiddle_normal.png" />
+    <File fileId="26" filename="$data/foliage/meadow/meadowUSgrassPureGreenSmall_alpha.png" />
+    <File fileId="24" filename="$data/foliage/meadow/meadowUSgrassPureGreenSmall_diffuse.png" />
+    <File fileId="25" filename="$data/foliage/meadow/meadowUSgrassPureGreenSmall_normal.png" />
+    <File fileId="32" filename="$data/foliage/meadow/meadowUSgrassPureHarvestReady_alpha.png" />
+    <File fileId="30" filename="$data/foliage/meadow/meadowUSgrassPureHarvestReady_diffuse.png" />
+    <File fileId="31" filename="$data/foliage/meadow/meadowUSgrassPureHarvestReady_normal.png" />
+    <File fileId="62" filename="$data/foliage/meadow/meadowUSgrassYellowConeFlowerHarvestReady2LOD1_alpha.png" />
+    <File fileId="60" filename="$data/foliage/meadow/meadowUSgrassYellowConeFlowerHarvestReady2LOD1_diffuse.png" />
+    <File fileId="61" filename="$data/foliage/meadow/meadowUSgrassYellowConeFlowerHarvestReady2LOD1_normal.png" />
+    <File fileId="59" filename="$data/foliage/meadow/meadowUSgrassYellowConeFlowerHarvestReadyLOD1_alpha.png" />
+    <File fileId="57" filename="$data/foliage/meadow/meadowUSgrassYellowConeFlowerHarvestReadyLOD1_diffuse.png" />
+    <File fileId="58" filename="$data/foliage/meadow/meadowUSgrassYellowConeFlowerHarvestReadyLOD1_normal.png" />
+    <File fileId="41" filename="$data/foliage/meadow/meadowUSyellowFlowerPureHarvestReady_alpha.png" />
+    <File fileId="39" filename="$data/foliage/meadow/meadowUSyellowFlowerPureHarvestReady_diffuse.png" />
+    <File fileId="40" filename="$data/foliage/meadow/meadowUSyellowFlowerPureHarvestReady_normal.png" />
+    <File fileId="4" filename="$data/shaders/fruitGrowthFoliageShader.xml" />
+    <File fileId="3" filename="$data/shared/default_specular.png" />
+  </Files>
+
+  <Materials>
+    <Material name="meadowUS_mat" materialId="1" customShaderId="4" customShaderVariation="SEASONAL">
+      <CustomParameter name="snowScale" value="0.4"/>
+      <Custommap name="alphaMap" fileId="5"/>
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="weedUS_mat" materialId="15" customShaderId="4" customShaderVariation="SEASONAL">
+      <CustomParameter name="snowScale" value="0.4"/>
+      <Custommap name="alphaMap" fileId="8"/>
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="weedUSLOD_ba_apera_mat" materialId="16" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="11"/>
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="weedUSLOD_ba_chaerophyllum_mat" materialId="17" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="14"/>
+      <Texture fileId="12"/>
+      <Normalmap fileId="13"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="weedUSLOD_ba_chenopodium_mat" materialId="18" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="17"/>
+      <Texture fileId="15"/>
+      <Normalmap fileId="16"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="weedUSLOD_ba_papaverRhoeas_mat" materialId="19" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="20"/>
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="weedUSLOD_ba_rumex_mat" materialId="20" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="23"/>
+      <Texture fileId="21"/>
+      <Normalmap fileId="22"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSgrassPureGreenSmall_mat" materialId="2" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="26"/>
+      <Texture fileId="24"/>
+      <Normalmap fileId="25"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSgrassPureGreenMiddle_mat" materialId="3" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="29"/>
+      <Texture fileId="27"/>
+      <Normalmap fileId="28"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSgrassPureHarvestReady_mat" materialId="4" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="32"/>
+      <Texture fileId="30"/>
+      <Normalmap fileId="31"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSgrassPureCut_mat" materialId="5" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="35"/>
+      <Texture fileId="33"/>
+      <Normalmap fileId="34"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSdayLilyPureHarvestReady_mat" materialId="6" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="38"/>
+      <Texture fileId="36"/>
+      <Normalmap fileId="37"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSyellowFlowerPureHarvestReady_mat" materialId="7" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="41"/>
+      <Texture fileId="39"/>
+      <Normalmap fileId="40"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSdryGrassGreenSmallLOD1_mat" materialId="8" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="44"/>
+      <Texture fileId="42"/>
+      <Normalmap fileId="43"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSdryGrassGreenMiddleLOD1_mat" materialId="9" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="47"/>
+      <Texture fileId="45"/>
+      <Normalmap fileId="46"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSdryGrassHarvestReadyLOD1_mat" materialId="10" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="50"/>
+      <Texture fileId="48"/>
+      <Normalmap fileId="49"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSgrassDayLilyHarvestReadyLOD1_mat" materialId="11" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="53"/>
+      <Texture fileId="51"/>
+      <Normalmap fileId="52"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSgrassDayLilyHarvestReady2LOD1_mat" materialId="12" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="56"/>
+      <Texture fileId="54"/>
+      <Normalmap fileId="55"/>
+      <Glossmap fileId="1"/>
+    </Material>
+    <Material name="meadowUSgrassYellowConeFlowerHarvestReadyLOD1_mat" materialId="13" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="59"/>
+      <Texture fileId="57"/>
+      <Normalmap fileId="58"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="meadowUSgrassYellowConeFlowerHarvestReady2LOD1_mat" materialId="14" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <CustomParameter name="snowScale" value="0.37"/>
+      <Custommap name="alphaMap" fileId="62"/>
+      <Texture fileId="60"/>
+      <Normalmap fileId="61"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="meadowUS.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="grassPure" nodeId="1">
+      <TransformGroup name="LOD0" static="true" nodeId="2">
+        <Shape name="greenSmall" translation="0 -1.77636e-17 0" shapeId="1" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="3"/>
+        <Shape name="greenMiddle" translation="0 -1.77636e-17 0" shapeId="2" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="4"/>
+        <Shape name="harvestReady" translation="0 -1.77636e-17 0" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="5"/>
+        <Shape name="cut" translation="0 -8.88178e-18 0" shapeId="4" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="6"/>
+      </TransformGroup>
+      <TransformGroup name="LOD1" nodeId="7">
+        <Shape name="greenSmall" shapeId="5" castsShadows="false" receiveShadows="true" materialIds="2" clipDistance="500" nodeId="8"/>
+        <Shape name="greenMiddle" shapeId="6" castsShadows="false" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="9"/>
+        <Shape name="harvestReady" shapeId="7" castsShadows="false" receiveShadows="true" materialIds="4" clipDistance="500" nodeId="10"/>
+        <Shape name="cut" shapeId="8" castsShadows="false" receiveShadows="true" materialIds="5" clipDistance="500" nodeId="11"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="dayLilyPure" nodeId="12">
+      <TransformGroup name="LOD0" static="true" nodeId="13">
+        <Shape name="harvestReady" shapeId="9" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="14"/>
+      </TransformGroup>
+      <TransformGroup name="LOD1" nodeId="15">
+        <Shape name="harvestReady" shapeId="10" castsShadows="false" receiveShadows="true" materialIds="6" clipDistance="500" nodeId="16"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="yellowConeFlowerPure" nodeId="17">
+      <TransformGroup name="LOD0" static="true" nodeId="18">
+        <Shape name="harvestReady" shapeId="11" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="19"/>
+      </TransformGroup>
+      <TransformGroup name="LOD1" nodeId="20">
+        <Shape name="harvestReady" shapeId="12" castsShadows="false" receiveShadows="true" materialIds="7" clipDistance="500" nodeId="21"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="grassDry" translation="0 1.38778e-17 0" nodeId="22">
+      <TransformGroup name="LOD0" translation="0 -1.77636e-17 -3.08149e-33" static="true" nodeId="23">
+        <Shape name="greenSmall" translation="1.97215e-33 0 0" shapeId="13" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="24"/>
+        <Shape name="greenMiddle" translation="1.97215e-33 0 0" shapeId="14" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="25"/>
+        <Shape name="harvestReady" translation="1.97215e-33 0 0" shapeId="15" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="26"/>
+      </TransformGroup>
+      <TransformGroup name="LOD1" translation="0 -1.38778e-17 0" nodeId="27">
+        <Shape name="greenSmall" shapeId="16" castsShadows="false" receiveShadows="true" materialIds="8" clipDistance="500" nodeId="28"/>
+        <Shape name="greenMiddle" shapeId="17" castsShadows="false" receiveShadows="true" materialIds="9" clipDistance="500" nodeId="29"/>
+        <Shape name="harvestReady" shapeId="18" castsShadows="false" receiveShadows="true" materialIds="10" clipDistance="500" nodeId="30"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="grassDayLily" nodeId="31">
+      <TransformGroup name="LOD0" static="true" nodeId="32">
+        <Shape name="harvestReady" shapeId="19" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="33"/>
+        <Shape name="harvestReady_2" shapeId="20" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="34"/>
+      </TransformGroup>
+      <TransformGroup name="LOD1" nodeId="35">
+        <Shape name="harvestReady" shapeId="21" castsShadows="false" receiveShadows="true" materialIds="11" clipDistance="500" nodeId="36"/>
+        <Shape name="harvestReady_2" shapeId="22" castsShadows="false" receiveShadows="true" materialIds="12" clipDistance="500" nodeId="37"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="grassYellowConeFlower" nodeId="38">
+      <TransformGroup name="LOD0" static="true" nodeId="39">
+        <Shape name="harvestReady" shapeId="23" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="40"/>
+        <Shape name="harvestReady_2" shapeId="24" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="41"/>
+      </TransformGroup>
+      <TransformGroup name="LOD1" nodeId="42">
+        <Shape name="harvestReady" shapeId="25" castsShadows="false" receiveShadows="true" materialIds="13" clipDistance="500" nodeId="43"/>
+        <Shape name="harvestReady_2" shapeId="26" castsShadows="false" receiveShadows="true" materialIds="14" clipDistance="500" nodeId="44"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="bigAlive" nodeId="45">
+      <TransformGroup name="apera" nodeId="46">
+        <Shape name="apera_LOD0" shapeId="27" castsShadows="true" receiveShadows="true" materialIds="15" clipDistance="500" nodeId="47"/>
+        <Shape name="apera_LOD1_01_" shapeId="28" castsShadows="false" receiveShadows="true" materialIds="16" clipDistance="500" nodeId="48"/>
+      </TransformGroup>
+      <TransformGroup name="chaerophyllum" nodeId="49">
+        <Shape name="chaerophyllum_LOD0" shapeId="29" castsShadows="true" receiveShadows="true" materialIds="15" clipDistance="500" nodeId="50"/>
+        <Shape name="chaerophyllum_LOD1_02_" shapeId="30" castsShadows="false" receiveShadows="true" materialIds="17" clipDistance="500" nodeId="51"/>
+      </TransformGroup>
+      <TransformGroup name="chenopodium" nodeId="52">
+        <Shape name="chenopodium_LOD0" shapeId="31" castsShadows="true" receiveShadows="true" materialIds="15" clipDistance="500" nodeId="53"/>
+        <Shape name="chenopodium_LOD1_03_" shapeId="32" castsShadows="false" receiveShadows="true" materialIds="18" clipDistance="500" nodeId="54"/>
+      </TransformGroup>
+      <TransformGroup name="papaverRhoeas" nodeId="55">
+        <Shape name="papaverRhoeas_LOD0" shapeId="33" castsShadows="true" receiveShadows="true" materialIds="15" clipDistance="500" nodeId="56"/>
+        <Shape name="papaverRhoeas_LOD1_05_" shapeId="34" castsShadows="false" receiveShadows="true" materialIds="19" clipDistance="500" nodeId="57"/>
+      </TransformGroup>
+      <TransformGroup name="rumex" nodeId="58">
+        <Shape name="rumex_LOD0" shapeId="35" castsShadows="true" receiveShadows="true" materialIds="15" clipDistance="500" nodeId="59"/>
+        <Shape name="rumex_LOD1_06_" shapeId="36" castsShadows="false" receiveShadows="true" materialIds="20" clipDistance="500" nodeId="60"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+  </UserAttributes>
+</i3D>

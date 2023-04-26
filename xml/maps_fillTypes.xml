@@ -626,7 +626,7 @@
                         normal  ="$data/fillPlanes/poplar_normal.png"
                         specular="$data/fillPlanes/poplar_specular.png" />
         </fillType>
-        <fillType name="WOOD" title="$l10n_fillType_wood" showOnPriceTable="false">
+        <fillType name="WOOD" title="$l10n_fillType_wood" showOnPriceTable="true">
             <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
             <economy pricePerLiter="1.0" />
             <image      hud     ="$dataS/menu/hud/fillTypes/hud_fill_treeSaplings.png" />
@@ -1580,7 +1580,7 @@
         <fillTypeCategory name="FARMSILO" >WHEAT BARLEY OAT CANOLA SUNFLOWER SOYBEAN MAIZE SORGHUM</fillTypeCategory>
         <fillTypeCategory name="HAYLOFT" >STRAW DRYGRASS_WINDROW</fillTypeCategory>
         <fillTypeCategory name="LOADINGVEHICLE">WHEAT BARLEY OAT CANOLA SUNFLOWER SOYBEAN MAIZE SEEDS FORAGE CHAFF WOODCHIPS SILAGE FERTILIZER LIME SORGHUM</fillTypeCategory>
-        <fillTypeCategory name="PRODUCT">FLOUR BREAD CAKE BUTTER CHEESE FABRIC SUGAR CLOTHES CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL GRAPE RAISINS GRAPEJUICE CHOCOLATE BOARDS FURNITURE STRAWBERRY LETTUCE TOMATO</fillTypeCategory>
+        <fillTypeCategory name="PRODUCT">FLOUR BREAD CAKE BUTTER CHEESE FABRIC SUGAR CLOTHES CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL GRAPE RAISINS GRAPEJUICE CHOCOLATE BOARDS FURNITURE STRAWBERRY LETTUCE TOMATO EGG</fillTypeCategory>
         <fillTypeCategory name="PRODUCT_BGA">METHANE ELECTRICCHARGE</fillTypeCategory>
     </fillTypeCategories>
 

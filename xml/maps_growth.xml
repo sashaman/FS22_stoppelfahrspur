@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<growth>
+    <seasonal>
+        <!--
+        period 1: early spring to mid spring
+        period 2: mid spring, to late spring
+        period 3: late spring, to early summer
+        period 4: early summer, to mid summer
+        period 5: mid summer, to late summer
+        period 6: late summer, to early autumn
+        period 7: early autumn, to mid autumn
+        period 8: mid autumn, to late autumn
+        period 9: late autumn, to early winter
+        period 10: early winter, to mid winter
+        period 11: mid winter, to late winter
+        period 12: late winter, to early spring
+        -->
+
+        <!-- wheat has 9 states -->
+        <fruit name="wheat" initialState="8">
+            <period index="1">
+                <update range="1-2" add="1" />
+                <update range="3-4" add="1" />
+				<update range="10" set="10" />  
+            </period>
+            <period index="2">
+                <update range="2-3" add="1" />
+                <update range="4-5" add="1" />
+				<update range="10" set="10" />  
+            </period>
+            <period index="3">
+                <update range="3-4" add="1" />
+                <update range="5-6" add="1" />
+				<update range="10" set="10" />  
+            </period>
+            <period index="4">
+                <update range="4-5" add="1" />
+                <update range="6-7" add="1" />
+				<update range="10" set="10" />  
+            </period>
+            <period index="5">
+                <update range="5-6" add="1" />
+                <update range="7" add="1" />
+				<update range="10" set="10" />  
+            </period>
+            <period index="6">
+                <update range="7" add="1" />
+                <update range="8" add="1" />
+				<update range="10" set="10" />  
+            </period>
+            <period index="7" plantingAllowed="true">
+                <update range="8" add="1" />
+                <update range="1" add="1" />
+				<update range="10" set="10" />  
+            </period>
+            <period index="8" plantingAllowed="true">
+                <update range="1-2" add="1" />
+				<update range="10" set="10" />  
+            </period>
+            <period index="9">
+				<update range="10" set="10" />  
+            </period>
+            <period index="10">
+				<update range="10" set="10" />  
+            </period>
+            <period index="11">
+				<update range="10" set="10" />  
+            </period>
+            <period index="12" plantingAllowed="true">
+                <update range="1" add="1" />
+                <update range="2-3" add="1" />
+				<update range="10" set="10" />  
+            </period>
+        </fruit>
+
+        <!-- barley has 8 states -->
+        <fruit name="barley">
+            <period index="1">
+                <update range="3-4" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="2">
+                <update range="4-5" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="3">
+                <update range="5-6" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="4">
+                <update range="6" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="5">
+                <update range="7" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="6">
+				<update range="9" set="9" />  
+            </period>
+            <period index="7" plantingAllowed="true">
+                <update range="1" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="8" plantingAllowed="true">
+                <update range="1-2" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="9">
+				<update range="9" set="9" />  
+            </period>
+            <period index="10">
+				<update range="9" set="9" />  
+            </period>
+            <period index="11">
+				<update range="9" set="9" />  
+            </period>
+            <period index="12">
+                <update range="2-3" add="1" />
+				<update range="9" set="9" />  
+            </period>
+        </fruit>
+
+        <!-- canola has 10 states -->
+        <fruit name="canola" initialState="9">
+            <period index="1">
+                <update range="4-5" add="1" />
+				<update range="11" set="11" />  
+            </period>
+            <period index="2">
+                <update range="5-6" add="1" />
+				<update range="11" set="11" />  
+            </period>
+            <period index="3">
+                <update range="6-7" add="1" />
+				<update range="11" set="11" />  
+            </period>
+            <period index="4">
+                <update range="7-8" add="1" />
+				<update range="11" set="11" />  
+            </period>
+            <period index="5">
+                <update range="8" add="1" />
+				<update range="11" set="11" />  
+            </period>
+            <period index="6" plantingAllowed="true">
+                <update range="1" add="1" />
+                <update range="9" add="1" />
+				<update range="11" set="11" />  
+            </period>
+            <period index="7" plantingAllowed="true">
+                <update range="1-2" add="1" />
+				<update range="11" set="11" />  
+            </period>
+            <period index="8">
+                <update range="2-3" add="1" />
+				<update range="11" set="11" />  
+            </period>
+            <period index="9">
+				<update range="11" set="11" />  
+            </period>
+            <period index="10">
+				<update range="11" set="11" />  
+            </period>
+            <period index="11">
+				<update range="11" set="11" />  
+            </period>
+            <period index="12">
+                <update range="3-4" add="1" />
+				<update range="11" set="11" />  
+            </period>
+        </fruit>
+
+        <!-- oat has 6 states -->
+        <fruit name="oat" initialState="5">
+            <period index="1" plantingAllowed="true">
+                <update range="1" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1-2" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="3">
+                <update range="2-3" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="4">
+                <update range="3-4" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="5">
+                <update range="4" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="6">
+                <update range="5" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="7">
+				<update range="7" set="7" />  
+            </period>
+            <period index="8">
+				<update range="7" set="7" />  
+            </period>
+            <period index="9">
+				<update range="7" set="7" />  
+            </period>
+            <period index="10">
+				<update range="7" set="7" />  
+            </period>
+            <period index="11">
+				<update range="7" set="7" />  
+            </period>
+            <period index="12">
+				<update range="7" set="7" />  
+            </period>
+        </fruit>
+
+        <!-- sorghum has 6 states -->
+        <fruit name="sorghum" initialState="4">
+            <period index="1">
+				<update range="7" set="7" />  
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="3" plantingAllowed="true">
+                <update range="1-2" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="4">
+                <update range="2-3" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="5">
+                <update range="3-4" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="6">
+                <update range="4" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="7">
+                <update range="5" add="1" />
+				<update range="7" set="7" />  
+            </period>
+            <period index="8">
+				<update range="7" set="7" />  
+            </period>
+            <period index="9">
+				<update range="7" set="7" />  
+            </period>
+            <period index="10">
+				<update range="7" set="7" />  
+            </period>
+            <period index="11">
+				<update range="7" set="7" />  
+            </period>
+            <period index="12">
+				<update range="7" set="7" />  
+            </period>
+        </fruit>
+
+        <!-- cotton has 10 states -->
+        <fruit name="cotton" initialState="6-7">
+            <period index="1" plantingAllowed="true">
+                <update range="1-2" add="1" />
+            </period>
+            <period index="2">
+                <update range="2-3" add="1" />
+            </period>
+            <period index="3">
+                <update range="3-4" add="1" />
+            </period>
+            <period index="4">
+                <update range="4-5" add="1" />
+            </period>
+            <period index="5">
+                <update range="5-6" add="1" />
+            </period>
+            <period index="6">
+                <update range="6-7" add="1" />
+            </period>
+            <period index="7">
+                <update range="7-8" add="1" />
+            </period>
+            <period index="8">
+                <update range="8" add="1" />
+            </period>
+            <period index="9">
+                <update range="9" add="1" />
+            </period>
+            <period index="10">
+            </period>
+            <period index="11">
+            </period>
+            <period index="12" plantingAllowed="true">
+                <update range="1" add="1" />
+            </period>
+        </fruit>
+
+        <!-- maize has 8 states -->
+        <fruit name="maize" initialState="4-5"> <!-- not available in spring and thus no initial state -->
+            <period index="1">
+				<update range="9" set="9" />  
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="3" plantingAllowed="true">
+                <update range="1-2" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="4">
+                <update range="2-3" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="5">
+                <update range="3-4" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="6">
+                <update range="4-5" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="7">
+                <update range="5-6" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="8">
+                <update range="6" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="9">
+                <update range="7" add="1" />
+				<update range="9" set="9" />  
+            </period>
+            <period index="10">
+				<update range="9" set="9" />  
+            </period>
+            <period index="11">
+				<update range="9" set="9" />  
+            </period>
+            <period index="12">
+				<update range="9" set="9" />  
+            </period>
+        </fruit>
+
+        <!-- sunflower has 9 states -->
+        <fruit name="sunflower" initialState="5-6">
+            <period index="1" plantingAllowed="true">
+                <update range="1" add="1" />
+			<update range="10" set="10" />  
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1-2" add="1" />
+			<update range="10" set="10" />  
+            </period>
+            <period index="3">
+                <update range="2-3" add="1" />
+			<update range="10" set="10" />  
+            </period>
+            <period index="4">
+                <update range="3-4" add="1" />
+			<update range="10" set="10" />  
+            </period>
+            <period index="5">
+                <update range="4-5" add="1" />
+			<update range="10" set="10" />  
+            </period>
+            <period index="6">
+                <update range="5-6" add="1" />
+			<update range="10" set="10" />  
+            </period>
+            <period index="7">
+                <update range="6-7" add="1" />
+			<update range="10" set="10" />  
+            </period>
+            <period index="8">
+                <update range="7" add="1" />
+			<update range="10" set="10" />  
+            </period>
+            <period index="9">
+                <update range="8" add="1" />
+			<update range="10" set="10" />  
+            </period>
+            <period index="10">
+			<update range="10" set="10" />  
+            </period>
+            <period index="11">
+			<update range="10" set="10" />  
+            </period>
+            <period index="12">
+			<update range="10" set="10" />  
+            </period>
+        </fruit>
+
+        <!-- soybean has 8 states -->
+        <fruit name="soybean" initialState="4-5">
+            <period index="1">
+			<update range="9" set="9" />  
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1" add="1" />
+			<update range="9" set="9" />  
+            </period>
+            <period index="3" plantingAllowed="true">
+                <update range="1-2" add="1" />
+			<update range="9" set="9" />  
+            </period>
+            <period index="4">
+                <update range="2-3" add="1" />
+			<update range="9" set="9" />  
+            </period>
+            <period index="5">
+                <update range="3-4" add="1" />
+			<update range="9" set="9" />  
+            </period>
+            <period index="6">
+                <update range="4-5" add="1" />
+			<update range="9" set="9" />  
+            </period>
+            <period index="7">
+                <update range="5-6" add="1" />
+			<update range="9" set="9" />  
+            </period>
+            <period index="8">
+                <update range="6" add="1" />
+			<update range="9" set="9" />  
+            </period>
+            <period index="9">
+                <update range="7" add="1" />
+			<update range="9" set="9" />  
+            </period>
+            <period index="10">
+			<update range="9" set="9" />  
+            </period>
+            <period index="11">
+			<update range="9" set="9" />  
+            </period>
+            <period index="12">
+			<update range="9" set="9" />  
+            </period>
+        </fruit>
+
+        <!-- potato has 7 states -->
+        <fruit name="potato" initialState="5">
+            <period index="1" plantingAllowed="true">
+                <update range="1" add="1" />
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1-2" add="1" />
+            </period>
+            <period index="3">
+                <update range="2-3" add="1" />
+            </period>
+            <period index="4">
+                <update range="3-4" add="1" />
+            </period>
+            <period index="5">
+                <update range="4-5" add="1" />
+            </period>
+            <period index="6">
+                <update range="5" add="1" />
+            </period>
+            <period index="7">
+                <update range="6" add="1" />
+            </period>
+            <period index="8">
+            </period>
+            <period index="9">
+            </period>
+            <period index="10">
+            </period>
+            <period index="11">
+            </period>
+            <period index="12">
+            </period>
+        </fruit>
+
+        <!-- sugarbeet has 9 states -->
+        <fruit name="sugarbeet" initialState="5-6">
+            <period index="1" plantingAllowed="true">
+                <update range="1" add="1" />
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1-2" add="1" />
+            </period>
+            <period index="3">
+                <update range="2-3" add="1" />
+            </period>
+            <period index="4">
+                <update range="3-4" add="1" />
+            </period>
+            <period index="5">
+                <update range="4-5" add="1" />
+            </period>
+            <period index="6">
+                <update range="5-6" add="1" />
+            </period>
+            <period index="7">
+                <update range="6-7" add="1" />
+            </period>
+            <period index="8">
+                <update range="7" add="1" />
+            </period>
+            <period index="9">
+                <update range="8" add="1" />
+            </period>
+            <period index="10">
+            </period>
+            <period index="11">
+            </period>
+            <period index="12">
+            </period>
+        </fruit>
+
+        <!-- sugarcane has 9 states -->
+        <fruit name="sugarCane" initialState="5-6">
+            <period index="1" plantingAllowed="true">
+                <update range="1" add="1" />
+                <update range="10" set="2" />
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1-2" add="1" />
+                <update range="10" set="2" />
+            </period>
+            <period index="3">
+                <update range="2-3" add="1" />
+            </period>
+            <period index="4">
+                <update range="3-4" add="1" />
+            </period>
+            <period index="5">
+                <update range="4-5" add="1" />
+            </period>
+            <period index="6">
+                <update range="5-6" add="1" />
+            </period>
+            <period index="7">
+                <update range="6-7" add="1" />
+            </period>
+            <period index="8">
+                <update range="7" add="1" />
+            </period>
+            <period index="9">
+                <update range="8" add="1" />
+            </period>
+            <period index="10">
+            </period>
+            <period index="11">
+            </period>
+            <period index="12">
+            </period>
+        </fruit>
+
+        <!-- poplar has 15 states -->
+        <fruit name="poplar" initialState="2-6">
+            <period index="1" plantingAllowed="true">
+                <update range="1" add="1" />
+                <update range="5-10" add="1" />
+                <update range="15" set="2" /> <!-- regrow from cut to first visible growth -->
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1-2" add="1" />
+                <update range="6-11" add="1" />
+                <update range="15" set="2" />
+            </period>
+            <period index="3" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="7-12" add="1" />
+                <update range="15" set="2" />
+            </period>
+            <period index="4" plantingAllowed="true">
+                <update range="1-4" add="1" />
+                <update range="8-13" add="1" />
+                <update range="15" set="2" />
+            </period>
+            <period index="5" plantingAllowed="true">
+                <update range="1-5" add="1" />
+                <update range="9-13" add="1" />
+                <update range="15" set="2" />
+            </period>
+            <period index="6" plantingAllowed="true">
+                <update range="1-6" add="1" />
+                <update range="10-13" add="1" />
+                <update range="15" set="2" />
+            </period>
+            <period index="7">
+                <update range="2-7" add="1" />
+                <update range="11-13" add="1" />
+            </period>
+            <period index="8">
+                <update range="3-8" add="1" />
+                <update range="12-13" add="1" />
+            </period>
+            <period index="9">
+                <update range="13" add="1" />
+            </period>
+            <period index="10">
+            </period>
+            <period index="11">
+            </period>
+            <period index="12">
+                <update range="4-9" add="1" />
+            </period>
+        </fruit>
+
+        <!-- oilseedRadish has 2 states -->
+        <fruit name="oilseedRadish" initialState="1-2">
+            <period index="1" plantingAllowed="true">
+                <update range="1" add="1" />
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1" add="1" />
+            </period>
+            <period index="3" plantingAllowed="true">
+                <update range="1" add="1" />
+            </period>
+            <period index="4" plantingAllowed="true">
+                <update range="1" add="1" />
+            </period>
+            <period index="5" plantingAllowed="true">
+                <update range="1" add="1" />
+            </period>
+            <period index="6" plantingAllowed="true">
+                <update range="1" add="1" />
+            </period>
+            <period index="7" plantingAllowed="true">
+                <update range="1" add="1" />
+            </period>
+            <period index="8" plantingAllowed="true">
+                <update range="1" add="1" />
+            </period>
+            <period index="9">
+            </period>
+            <period index="10">
+            </period>
+            <period index="11">
+            </period>
+            <period index="12">
+            </period>
+        </fruit>
+
+        <!-- grass has 4 states -->
+        <fruit name="grass" initialState="1-4">
+            <period index="1" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="3" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="4" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="5" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="6" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="7" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="8" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="9" plantingAllowed="true">
+                <update range="1" add="1" />
+                <update range="4" set="3" /> <!-- knock back due to winter -->
+            </period>
+            <period index="10">
+            </period>
+            <period index="11">
+            </period>
+            <period index="12" plantingAllowed="true">      <!--Februar-->
+                <update range="1-2" add="1" />
+				<update range="5" set="2" />
+            </period>
+        </fruit>
+
+        <!-- meadow has 4 states -->
+        <fruit name="meadow" initialState="1-4">
+            <period index="1" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="3" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="4" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="5" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="6" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="7" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="8" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="9" plantingAllowed="true">
+                <update range="1" add="1" />
+                <update range="4" set="3" /> <!-- knock back due to winter -->
+            </period>
+            <period index="10">
+            </period>
+            <period index="11">
+            </period>
+            <period index="12" plantingAllowed="true">      <!--Februar-->
+                <update range="1-2" add="1" />
+				<update range="5" set="2" />
+            </period>
+        </fruit>
+
+        <!-- meadow has 4 states -->
+        <fruit name="meadowfr" initialState="1-4">
+            <period index="1" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="3" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="4" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="5" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="6" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="7" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="8" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="9" plantingAllowed="true">
+                <update range="1" add="1" />
+                <update range="4" set="3" /> <!-- knock back due to winter -->
+            </period>
+            <period index="10">
+            </period>
+            <period index="11">
+            </period>
+            <period index="12" plantingAllowed="true">      <!--Februar-->
+                <update range="1-2" add="1" />
+				<update range="5" set="2" />
+            </period>
+        </fruit>
+
+        <!-- meadow has 4 states -->
+        <fruit name="meadowdlc" initialState="1-4">
+            <period index="1" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="3" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="4" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="5" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="6" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="7" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="8" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="5" set="2" />
+            </period>
+            <period index="9" plantingAllowed="true">
+                <update range="1" add="1" />
+                <update range="4" set="3" /> <!-- knock back due to winter -->
+            </period>
+            <period index="10">
+            </period>
+            <period index="11">
+            </period>
+            <period index="12" plantingAllowed="true">      <!--Februar-->
+                <update range="1-2" add="1" />
+				<update range="5" set="2" />
+            </period>
+        </fruit>
+
+        <!-- grape has 14 states -->
+        <fruit name="grape" initialState="3-9">
+            <period index="1" plantingAllowed="true">
+                <update range="1" set="3" /> <!-- always grow to first weed state -->
+            </period>
+            <period index="2" plantingAllowed="true">
+                <update range="1" set="3" /> <!-- always grow to first weed state -->
+                <update range="2-3" add="2" />
+            </period>
+            <period index="3" plantingAllowed="true">
+                <update range="1" set="3" /> <!-- always grow to first weed state -->
+                <update range="2-3" add="2" />
+            </period>
+            <period index="4">
+                <update range="1" set="3" /> <!-- always grow to first weed state -->
+                <update range="2-5" add="2" />
+            </period>
+            <period index="5">
+                <update range="1" set="3" /> <!-- always grow to first weed state -->
+                <update range="2-7" add="2" />
+            </period>
+            <period index="6">
+                <update range="1" set="3" /> <!-- always grow to first weed state -->
+                <update range="2-9" add="2" />
+            </period>
+            <period index="7">
+                <update range="1" set="3" /> <!-- always grow to first weed state -->
+                <update range="2-9" add="2" />
+            </period>
+            <period index="8">
+                <update range="2-13" set="14" />
+            </period>
+            <period index="9">
+                <update range="2-13" set="14" />
+            </period>
+            <period index="10">
+                <update range="2-13" set="14" />
+            </period>
+            <period index="11">
+                <update range="2-13" set="14" />
+            </period>
+            <period index="12">
+                <update range="2-13" set="14" />
+            </period>
+        </fruit>
+
+        <!-- olive has 12 states -->
+        <fruit name="olive" initialState="4-8">
+            <period index="1" plantingAllowed="true">
+                <update range="2-12" set="1" />
+            </period>
+            <period index="2" plantingAllowed="true" />
+            <period index="3" plantingAllowed="true" />
+            <period index="4" plantingAllowed="true">
+                <update range="1" set="4" /> <!-- always grow to first weed state -->
+                <update range="2-4" add="2" />
+            </period>
+            <period index="5">
+                <update range="1" set="4" /> <!-- always grow to first weed state -->
+                <update range="2-6" add="2" />
+            </period>
+            <period index="6">
+                <update range="1" set="4" /> <!-- always grow to first weed state -->
+                <update range="2-8" add="2" />
+            </period>
+            <period index="7">
+                <update range="2-10" add="2" />
+            </period>
+            <period index="8">
+                <update range="2-10" add="2" />
+            </period>
+            <period index="9">
+                <update range="2-10" add="2" />
+            </period>
+            <period index="10">
+                <update range="2-10" add="2" />
+            </period>
+            <period index="11">
+                <update range="2-10" add="2" />
+            </period>
+            <period index="12">
+                <update range="2-10" add="2" />
+            </period>
+        </fruit>
+    </seasonal>
+    <nonSeasonal>
+        <fruit name="grape">
+            <update range="1" set="3" />
+            <update range="2-9" add="2" />
+            <update range="12-13" set="14" />
+        </fruit>
+        <fruit name="olive">
+            <update range="1" set="4" />
+            <update range="2-8" add="2" />
+            <update range="11-12" set="1" />
+        </fruit>
+    </nonSeasonal>
+</growth>

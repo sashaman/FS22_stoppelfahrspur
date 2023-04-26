@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<foliageType>
+    <!-- grass
+
+    0 1 2 3
+
+    1 0 0 0 - invisible
+    0 1 0 0 - green small
+    1 1 0 0 - green middle
+    0 0 1 0 - harvest ready
+    1 0 1 0 - cut
+    0 1 1 0 - cut 2
+
+    -->
+    <foliageLayer cellSize="8" objectMask="16711935" decalLayer="0" densityMapChannelOffset="0" numDensityMapChannels="4" numBlocksPerUnit="3.5" shapeSource="grass.i3d">
+        <foliageStateDefaults distanceMapLayer="1" width="1.0" height="1.0" widthVariance="0.5" heightVariance="0.5" horizontalPositionVariance="0.4" />
+        <!-- default LOD distances etc -->
+        <foliageLodDefaults lod="0" viewDistance="18"  blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1" />
+        <foliageLodDefaults lod="1" viewDistance="80" blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1" />
+        <!-- 1 0 0 0 - invisible -->
+        <foliageState name="invisible" />
+        <!-- 0 1 0 0 - green small -->
+        <foliageState name="green small">
+            <foliageShape>
+                <foliageLod blockShape="0>0|0" />
+                <foliageLod blockShape="0>1|0" />
+            </foliageShape>
+        </foliageState>
+        <!-- 1 1 0 0 - green middle -->
+        <foliageState name="green middle">
+            <foliageShape>
+                <foliageLod blockShape="0>0|1" />
+                <foliageLod blockShape="0>1|1" />
+            </foliageShape>
+        </foliageState>
+        <!-- 0 0 1 0 - green big (harvest ready) -->
+        <foliageState name="harvest ready">
+            <foliageShape>
+                <foliageLod blockShape="0>0|2" />
+                <foliageLod blockShape="0>1|2" />
+            </foliageShape>
+        </foliageState>
+        <!-- 1 0 1 0 - cut -->
+        <foliageState name="cut">
+            <foliageShape>
+                <foliageLod blockShape="0>0|3" />
+                <foliageLod blockShape="0>1|3" />
+            </foliageShape>
+        </foliageState>
+        <!-- 0 1 1 0 - cut 2 -->
+        <foliageState name="cut 2">
+            <foliageShape>
+                <foliageLod blockShape="0>0|3" />
+                <foliageLod blockShape="0>1|3" />
+            </foliageShape>
+        </foliageState>
+        <!--  -->
+    </foliageLayer>
+</foliageType>

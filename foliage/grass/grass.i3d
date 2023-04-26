@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="grass" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="7" filename="$data/foliage/grass/grassCutLOD1_alpha.png" />
+    <File fileId="5" filename="$data/foliage/grass/grassCutLOD1_diffuse.png" />
+    <File fileId="6" filename="$data/foliage/grass/grassCutLOD1_normal.png" />
+    <File fileId="10" filename="$data/foliage/grass/grassGreenMiddleLOD1_alpha.png" />
+    <File fileId="8" filename="$data/foliage/grass/grassGreenMiddleLOD1_diffuse.png" />
+    <File fileId="9" filename="$data/foliage/grass/grassGreenMiddleLOD1_normal.png" />
+    <File fileId="16" filename="$data/foliage/grass/grassGreenSmallLOD1_alpha.png" />
+    <File fileId="14" filename="$data/foliage/grass/grassGreenSmallLOD1_diffuse.png" />
+    <File fileId="15" filename="$data/foliage/grass/grassGreenSmallLOD1_normal.png" />
+    <File fileId="13" filename="$data/foliage/grass/grassHarvestReadyLOD1_alpha.png" />
+    <File fileId="11" filename="$data/foliage/grass/grassHarvestReadyLOD1_diffuse.png" />
+    <File fileId="12" filename="$data/foliage/grass/grassHarvestReadyLOD1_normal.png" />
+    <File fileId="4" filename="$data/foliage/grass/grass_alpha.png" />
+    <File fileId="1" filename="$data/foliage/grass/grass_diffuse.png" />
+    <File fileId="2" filename="$data/foliage/grass/grass_normal.png" />
+    <File fileId="3" filename="$data/shaders/fruitGrowthFoliageShader.xml" />
+  </Files>
+
+  <Materials>
+    <Material name="grass_mat" materialId="1" specularColor="0 0 0" customShaderId="3">
+      <CustomParameter name="snowScale" value="0.36"/>
+      <Custommap name="alphaMap" fileId="4"/>
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="grassCutLOD1_mat" materialId="5" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
+      <CustomParameter name="snowScale" value="0.29"/>
+      <Custommap name="alphaMap" fileId="7"/>
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+    </Material>
+    <Material name="grassGreenMiddleLOD1_mat" materialId="3" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
+      <CustomParameter name="snowScale" value="0.29"/>
+      <Custommap name="alphaMap" fileId="10"/>
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+    </Material>
+    <Material name="grassHarvestReadyLOD1_mat" materialId="4" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
+      <CustomParameter name="snowScale" value="0.29"/>
+      <Custommap name="alphaMap" fileId="13"/>
+      <Texture fileId="11"/>
+      <Normalmap fileId="12"/>
+    </Material>
+    <Material name="grassGreenSMallLOD1_mat" materialId="2" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
+      <CustomParameter name="snowScale" value="0.29"/>
+      <Custommap name="alphaMap" fileId="16"/>
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="grass.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="fieldGrass" nodeId="1">
+      <TransformGroup name="LOD0" static="true" clipDistance="500" nodeId="2">
+        <Shape name="greenSmall" shapeId="1" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="3"/>
+        <Shape name="greenMiddle" shapeId="2" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="4"/>
+        <Shape name="harvestReady" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="5"/>
+        <Shape name="cut" shapeId="4" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="6"/>
+      </TransformGroup>
+      <TransformGroup name="LOD1" nodeId="7">
+        <Shape name="greeenSmall" shapeId="5" castsShadows="false" receiveShadows="true" materialIds="2" clipDistance="500" nodeId="8"/>
+        <Shape name="greenMiddle" shapeId="6" castsShadows="false" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="9"/>
+        <Shape name="harvestReady" shapeId="7" castsShadows="false" receiveShadows="true" materialIds="4" clipDistance="500" nodeId="10"/>
+        <Shape name="cut" shapeId="8" castsShadows="false" receiveShadows="true" materialIds="5" clipDistance="500" nodeId="11"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+  </UserAttributes>
+</i3D>
