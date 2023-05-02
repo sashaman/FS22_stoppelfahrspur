@@ -4,64 +4,61 @@
         <fruitType name="wheat" shownOnMap="true" useForFieldJob="true" >
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" needsRolling="true" allowsSeeding="true"  directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.025" />
-            <harvest minHarvestingGrowthState="8" maxHarvestingGrowthState="8" cutState="10" minForageGrowthState="7" allowsPartialGrowthState="false" literPerSqm="0.89" cutHeight="0.15" chopperTypeName="CHOPPER_STRAW"/>
+            <harvest minHarvestingGrowthState="8" maxHarvestingGrowthState="8" cutState="11" minForageGrowthState="7" allowsPartialGrowthState="false" literPerSqm="0.89" cutHeight="0.15" chopperTypeName="CHOPPER_STRAW"/>
             <growth witheredState="9" numGrowthStates="8" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />
             <growthGroundTypeChange state="8" groundType="HARVEST_READY" />
             <windrow name="straw" litersPerSqm="3.68" />
             <cropCare maxWeederState="5" maxWeederHoeState="3" />
             <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
-            <!-- <destruction canBeDestroyed="true" filterStart="4" filterEnd="9" /> -->
-            <destruction canBeDestroyed="true" filterStart="4" filterEnd="10" state="11" />
+            <destruction canBeDestroyed="true" filterStart="4" filterEnd="11" state="10" />
             <mapColors default="0.6172 0.4072 0.0782 1" colorBlind="0.2918 0.3564 0.7011 1"/>
         </fruitType>
         <fruitType name="barley" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" needsRolling="true" allowsSeeding="true"  directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.021" />
-            <harvest minHarvestingGrowthState="7" maxHarvestingGrowthState="7" cutState="9" minForageGrowthState="6" allowsPartialGrowthState="false" literPerSqm="0.96" cutHeight="0.15" chopperTypeName="CHOPPER_STRAW"/>
+            <harvest minHarvestingGrowthState="7" maxHarvestingGrowthState="7" cutState="10" minForageGrowthState="6" allowsPartialGrowthState="false" literPerSqm="0.96" cutHeight="0.15" chopperTypeName="CHOPPER_STRAW"/>
             <growth witheredState="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />
             <growthGroundTypeChange state="7" groundType="HARVEST_READY" />
             <windrow name="straw" litersPerSqm="3.68" />
             <cropCare maxWeederState="4" maxWeederHoeState="3" />
             <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
-            <!-- <destruction canBeDestroyed="true" filterStart="4" filterEnd="8" /> -->
-            <destruction canBeDestroyed="true" filterStart="4" filterEnd="9" state="10" />
+            <destruction canBeDestroyed="true" filterStart="4" filterEnd="10" state="9" />
             <mapColors default="0.2502 0.1683 0.0612 1" colorBlind="0.6795 0.6867 0.7231 1"/>
         </fruitType>
         <fruitType name="canola" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" needsRolling="true" allowsSeeding="true"  directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.002" />
-            <harvest minHarvestingGrowthState="9" maxHarvestingGrowthState="9" cutState="11" minForageGrowthState="8" allowsPartialGrowthState="false" literPerSqm="0.58" cutHeight="0.30" forageCutHeight="0.15" beeYieldBonusPercentage="0.05" chopperTypeName="CHOPPER_STRAW"/>
+            <harvest minHarvestingGrowthState="9" maxHarvestingGrowthState="9" cutState="12" minForageGrowthState="8" allowsPartialGrowthState="false" literPerSqm="0.58" cutHeight="0.30" forageCutHeight="0.15" beeYieldBonusPercentage="0.05" chopperTypeName="CHOPPER_STRAW"/>
             <growth witheredState="10" numGrowthStates="9" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />
             <growthGroundTypeChange state="9" groundType="HARVEST_READY_OTHER" />
             <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
-            <!-- <destruction canBeDestroyed="true" filterStart="5" filterEnd="10" /> -->
-            <destruction canBeDestroyed="true" filterStart="5" filterEnd="11" state="12" />
+            <destruction canBeDestroyed="true" filterStart="5" filterEnd="12" state="11" />
             <cropCare maxWeederState="4" maxWeederHoeState="4" />
             <mapColors default="0.3324 0.5395 0.0823 1" colorBlind="0.7681 0.6514 0.0529 1"/>
         </fruitType>
         <fruitType name="oat" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" needsRolling="true" allowsSeeding="true"  directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.015" />
-            <harvest minHarvestingGrowthState="5" maxHarvestingGrowthState="5" cutState="7" minForageGrowthState="4" allowsPartialGrowthState="false" literPerSqm="0.67" cutHeight="0.15" chopperTypeName="CHOPPER_STRAW"/>
+            <harvest minHarvestingGrowthState="5" maxHarvestingGrowthState="5" cutState="8" minForageGrowthState="4" allowsPartialGrowthState="false" literPerSqm="0.67" cutHeight="0.15" chopperTypeName="CHOPPER_STRAW"/>
             <growth witheredState="6" numGrowthStates="5" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />
             <growthGroundTypeChange state="5" groundType="HARVEST_READY" />
             <windrow name="straw" litersPerSqm="3.68" />
             <cropCare maxWeederState="3" maxWeederHoeState="2" />
             <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
-            <!-- <destruction canBeDestroyed="true" filterStart="3" filterEnd="6" /> -->
-            <destruction canBeDestroyed="true" filterStart="3" filterEnd="7" state="8" />
+            <destruction canBeDestroyed="true" filterStart="3" filterEnd="8" state="7" />
             <mapColors default="0.4508 0.1442 0.0285 1" colorBlind="0.1221 0.1221 0.1221 1"/>
         </fruitType>
         <fruitType name="maize" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" allowsSeeding="true"  directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.0045" />
-            <harvest minHarvestingGrowthState="7" maxHarvestingGrowthState="7" cutState="9" minForageGrowthState="5" allowsPartialGrowthState="false" literPerSqm="1.12" cutHeight="0.20" forageCutHeight="0.15" chopperTypeName="CHOPPER_MAIZE"/>
+            <harvest minHarvestingGrowthState="7" maxHarvestingGrowthState="7" cutState="10" minForageGrowthState="5" allowsPartialGrowthState="false" literPerSqm="1.12" cutHeight="0.20" forageCutHeight="0.15" chopperTypeName="CHOPPER_MAIZE"/>
             <growth witheredState="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />
             <growthGroundTypeChange state="7" groundType="HARVEST_READY_OTHER" />
             <options lowSoilDensityRequired="true" increasesSoilDensity="true" consumesLime="true" startSprayState="0" />
             <!-- <preparing outputName="maize_haulm" minGrowthState="8" maxGrowthState="8" preparedGrowthState="11" /> -->
             <!-- <destruction canBeDestroyed="true" filterStart="3" filterEnd="8" /> -->
-            <destruction canBeDestroyed="true" filterStart="3" filterEnd="9" state="10" />
+            <destruction canBeDestroyed="true" filterStart="3" filterEnd="10" state="9" />
+
             <cropCare maxWeederState="2" maxWeederHoeState="3" />
             <mapColors default="0.8069 0.3231 0.0262 1" colorBlind="0.3968 0.3712 0.2159 1"/>
             <mulcher chopperTypeName="CHOPPER_MAIZE" />
@@ -69,12 +66,11 @@
         <fruitType name="sunflower" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" allowsSeeding="true"  directionSnapAngle="0" alignsToSun="true" seedUsagePerSqm="0.005" />
-            <harvest minHarvestingGrowthState="8" maxHarvestingGrowthState="8" cutState="10" minForageGrowthState="7" allowsPartialGrowthState="false" literPerSqm="0.45" cutHeight="1.0" forageCutHeight="0.15" chopperTypeName="CHOPPER_MAIZE" beeYieldBonusPercentage="0.05"/>
+            <harvest minHarvestingGrowthState="8" maxHarvestingGrowthState="8" cutState="11" minForageGrowthState="7" allowsPartialGrowthState="false" literPerSqm="0.45" cutHeight="1.0" forageCutHeight="0.15" chopperTypeName="CHOPPER_MAIZE" beeYieldBonusPercentage="0.05"/>
             <growth witheredState="9" numGrowthStates="8" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />
             <growthGroundTypeChange state="8" groundType="HARVEST_READY_OTHER" />
             <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
-            <!-- <destruction canBeDestroyed="true" filterStart="4" filterEnd="9" /> -->
-            <destruction canBeDestroyed="true" filterStart="4" filterEnd="10" state="11" />
+            <destruction canBeDestroyed="true" filterStart="4" filterEnd="11" state="10" />
             <cropCare maxWeederState="3" maxWeederHoeState="2" />
             <mapColors default="0.8227 0.5972 0.0160 1" colorBlind="0.1384 0.1559 0.2423 1"/>
             <mulcher chopperTypeName="CHOPPER_MAIZE" />
@@ -82,12 +78,11 @@
         <fruitType name="soybean" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" needsRolling="true" allowsSeeding="true"  directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.015" />
-            <harvest minHarvestingGrowthState="7" maxHarvestingGrowthState="7" cutState="9" minForageGrowthState="6" allowsPartialGrowthState="false" literPerSqm="0.35" cutHeight="0.20" forageCutHeight="0.15" chopperTypeName="CHOPPER_STRAW"/>
+            <harvest minHarvestingGrowthState="7" maxHarvestingGrowthState="7" cutState="10" minForageGrowthState="6" allowsPartialGrowthState="false" literPerSqm="0.35" cutHeight="0.20" forageCutHeight="0.15" chopperTypeName="CHOPPER_STRAW"/>
             <growth witheredState="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />
             <growthGroundTypeChange state="7" groundType="HARVEST_READY" />
             <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
-            <!-- <destruction canBeDestroyed="true" filterStart="3" filterEnd="8" /> -->
-            <destruction canBeDestroyed="true" filterStart="3" filterEnd="9" state="10"/>
+            <destruction canBeDestroyed="true" filterStart="3" filterEnd="10" state="9" />
             <cropCare maxWeederState="4" maxWeederHoeState="2" />
             <mapColors default="0.2195 0.2346 0.0273 1" colorBlind="0.3564 0.3095 0.0437 1"/>
         </fruitType>
@@ -142,12 +137,11 @@
         <fruitType name="sorghum" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" allowsSeeding="true"  directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.025" />
-            <harvest minHarvestingGrowthState="5" maxHarvestingGrowthState="5" cutState="7" minForageGrowthState="4" allowsPartialGrowthState="false" literPerSqm="0.82" cutHeight="0.35" forageCutHeight="0.15"/>
+            <harvest minHarvestingGrowthState="5" maxHarvestingGrowthState="5" cutState="8" minForageGrowthState="4" allowsPartialGrowthState="false" literPerSqm="0.82" cutHeight="0.35" forageCutHeight="0.15"/>
             <growth witheredState="6" numGrowthStates="5" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />
             <growthGroundTypeChange state="5" groundType="HARVEST_READY_OTHER" />
             <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
-            <!-- <destruction canBeDestroyed="true" filterStart="3" filterEnd="6" /> -->
-            <destruction canBeDestroyed="true" filterStart="3" filterEnd="7" state="8" />
+            <destruction canBeDestroyed="true" filterStart="3" filterEnd="8" state="7" />
             <cropCare maxWeederState="2" maxWeederHoeState="2" />
             <mapColors default="0.1620 0.0802 0.0545 1" colorBlind="0.0630 0.0595 0.0331 1"/>
         </fruitType>
