@@ -23,7 +23,7 @@
     <File fileId="7" filename="$data/foliage/decoFoliage/weedUS_normal.png" />
     <File fileId="5" filename="$data/foliage/meadow/meadowUS_alpha.png" />
     <!-- <File fileId="1" filename="$data/foliage/meadow/meadowUS_diffuse.png" /> -->
-    <File fileId="1" filename="../textures/meadowFR/meadow_diffuse.png" />
+    <File fileId="1" filename="meadow_diffuse.png" />
     <File fileId="2" filename="$data/foliage/meadow/meadowUS_normal.png" />
     <File fileId="38" filename="$data/foliage/meadow/meadowUSdayLilyPureHarvestReady_alpha.png" />
     <File fileId="36" filename="$data/foliage/meadow/meadowUSdayLilyPureHarvestReady_diffuse.png" />

@@ -11,7 +11,7 @@
     <File fileId="24" filename="$data/foliage/meadow/meadowFR_cloverHarvestReadyLOD_alpha_H.png" />
     <File fileId="22" filename="$data/foliage/meadow/meadowFR_cloverHarvestReadyLOD_diffuse_H.png" />
     <File fileId="23" filename="$data/foliage/meadow/meadowFR_cloverHarvestReadyLOD_normal_H.png" />
-    <File fileId="1" filename="../textures/meadowFR/meadowFR_diffuse.png" />
+    <File fileId="1" filename="meadowFR_diffuse.png" />
     <File fileId="30" filename="$data/foliage/meadow/meadowFR_grassCloverGreenMiddleLOD_alpha_H.png" />
     <File fileId="28" filename="$data/foliage/meadow/meadowFR_grassCloverGreenMiddleLOD_diffuse_H.png" />
     <File fileId="29" filename="$data/foliage/meadow/meadowFR_grassCloverGreenMiddleLOD_normal_H.png" />
@@ -22,16 +22,16 @@
     <File fileId="31" filename="$data/foliage/meadow/meadowFR_grassCloverHarvestReadyLOD_diffuse_H.png" />
     <File fileId="32" filename="$data/foliage/meadow/meadowFR_grassCloverHarvestReadyLOD_normal_H.png" />
     <File fileId="17" filename="$data/foliage/meadow/meadowFR_grassCutLOD_alpha_H.png" />
-    <File fileId="15" filename="../textures/meadowFR/meadowFR_grassCutLOD_diffuse_H.png" />
+    <File fileId="15" filename="meadowFR_grassCutLOD_diffuse_H.png" />
     <File fileId="16" filename="$data/foliage/meadow/meadowFR_grassCutLOD_normal_H.png" />
     <File fileId="11" filename="$data/foliage/meadow/meadowFR_grassGreenMiddleLOD_alpha_H.png" />
-    <File fileId="9" filename="../textures/meadowFR/meadowFR_grassGreenMiddleLOD_diffuse_H.png" />
+    <File fileId="9" filename="meadowFR_grassGreenMiddleLOD_diffuse_H.png" />
     <File fileId="10" filename="$data/foliage/meadow/meadowFR_grassGreenMiddleLOD_normal_H.png" />
     <File fileId="8" filename="$data/foliage/meadow/meadowFR_grassGreenSmallLOD_alpha_H.png" />
-    <File fileId="6" filename="../textures/meadowFR/meadowFR_grassGreenSmallLOD_diffuse_H.png" />
+    <File fileId="6" filename="meadowFR_grassGreenSmallLOD_diffuse_H.png" />
     <File fileId="7" filename="$data/foliage/meadow/meadowFR_grassGreenSmallLOD_normal_H.png" />
     <File fileId="14" filename="$data/foliage/meadow/meadowFR_grassHarvestReadyLOD_alpha_H.png" />
-    <File fileId="12" filename="../textures/meadowFR/meadowFR_grassHarvestReadyLOD_diffuse_H.png" />
+    <File fileId="12" filename="meadowFR_grassHarvestReadyLOD_diffuse_H.png" />
     <File fileId="13" filename="$data/foliage/meadow/meadowFR_grassHarvestReadyLOD_normal_H.png" />
     <File fileId="39" filename="$data/foliage/meadow/meadowFR_grassHyacinthHarvestReady2LOD_alpha_H.png" />
     <File fileId="37" filename="$data/foliage/meadow/meadowFR_grassHyacinthHarvestReady2LOD_diffuse_H.png" />
