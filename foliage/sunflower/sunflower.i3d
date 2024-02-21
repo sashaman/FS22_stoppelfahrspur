@@ -1,110 +1,105 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<i3D name="sunflower" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+<i3D name="sunflower.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.6"/>
+  </Asset>
 
   <Files>
-    <File fileId="19" filename="$data/foliage/sunflower/sunflowerStage01LOD1_alpha.png" />
-    <File fileId="17" filename="$data/foliage/sunflower/sunflowerStage01LOD1_diffuse.png" />
-    <File fileId="18" filename="$data/foliage/sunflower/sunflowerStage01LOD1_normal.png" />
-    <File fileId="4" filename="$data/foliage/sunflower/sunflowerStage01_alpha.png" />
-    <File fileId="1" filename="$data/foliage/sunflower/sunflowerStage01_diffuse.png" />
-    <File fileId="2" filename="$data/foliage/sunflower/sunflowerStage01_normal.png" />
-    <File fileId="22" filename="$data/foliage/sunflower/sunflowerStage02LOD1_alpha.png" />
-    <File fileId="20" filename="$data/foliage/sunflower/sunflowerStage02LOD1_diffuse.png" />
-    <File fileId="21" filename="$data/foliage/sunflower/sunflowerStage02LOD1_normal.png" />
-    <File fileId="7" filename="$data/foliage/sunflower/sunflowerStage02_alpha.png" />
-    <File fileId="5" filename="$data/foliage/sunflower/sunflowerStage02_diffuse.png" />
-    <File fileId="6" filename="$data/foliage/sunflower/sunflowerStage02_normal.png" />
-    <File fileId="25" filename="$data/foliage/sunflower/sunflowerStage03LOD1_alpha.png" />
-    <File fileId="23" filename="$data/foliage/sunflower/sunflowerStage03LOD1_diffuse.png" />
-    <File fileId="24" filename="$data/foliage/sunflower/sunflowerStage03LOD1_normal.png" />
-    <File fileId="10" filename="$data/foliage/sunflower/sunflowerStage03_alpha.png" />
-    <File fileId="8" filename="$data/foliage/sunflower/sunflowerStage03_diffuse.png" />
-    <File fileId="9" filename="$data/foliage/sunflower/sunflowerStage03_normal.png" />
-    <File fileId="28" filename="$data/foliage/sunflower/sunflowerStage04LOD1_alpha.png" />
-    <File fileId="26" filename="$data/foliage/sunflower/sunflowerStage04LOD1_diffuse.png" />
-    <File fileId="27" filename="$data/foliage/sunflower/sunflowerStage04LOD1_normal.png" />
-    <File fileId="13" filename="$data/foliage/sunflower/sunflowerStage04_alpha.png" />
-    <File fileId="11" filename="$data/foliage/sunflower/sunflowerStage04_diffuse.png" />
-    <File fileId="12" filename="$data/foliage/sunflower/sunflowerStage04_normal.png" />
-    <File fileId="31" filename="$data/foliage/sunflower/sunflowerStage05LOD1_alpha.png" />
-    <File fileId="29" filename="$data/foliage/sunflower/sunflowerStage05LOD1_diffuse.png" />
-    <File fileId="30" filename="$data/foliage/sunflower/sunflowerStage05LOD1_normal.png" />
-    <File fileId="16" filename="$data/foliage/sunflower/sunflowerStage05_alpha.png" />
-    <File fileId="14" filename="$data/foliage/sunflower/sunflowerStage05_diffuse.png" />
-    <File fileId="15" filename="$data/foliage/sunflower/sunflowerStage05_normal.png" />
-    <File fileId="34" filename="$data/foliage/sunflower/sunflowerStage06LOD1_alpha.png" />
-    <File fileId="32" filename="$data/foliage/sunflower/sunflowerStage06LOD1_diffuse.png" />
-    <File fileId="33" filename="$data/foliage/sunflower/sunflowerStage06LOD1_normal.png" />
-    <File fileId="3" filename="$data/shaders/fruitGrowthFoliageShader.xml" />
+    <File fileId="20" filename="$data/foliage/sunflower/sunflowerStage01LOD1_alpha.png"/>
+    <File fileId="18" filename="$data/foliage/sunflower/sunflowerStage01LOD1_diffuse.png"/>
+    <File fileId="19" filename="$data/foliage/sunflower/sunflowerStage01LOD1_normal.png"/>
+    <File fileId="5" filename="$data/foliage/sunflower/sunflowerStage01_alpha.png"/>
+    <File fileId="1" filename="$data/foliage/sunflower/sunflowerStage01_diffuse.png"/>
+    <File fileId="2" filename="$data/foliage/sunflower/sunflowerStage01_normal.png"/>
+    <File fileId="23" filename="$data/foliage/sunflower/sunflowerStage02LOD1_alpha.png"/>
+    <File fileId="21" filename="$data/foliage/sunflower/sunflowerStage02LOD1_diffuse.png"/>
+    <File fileId="22" filename="$data/foliage/sunflower/sunflowerStage02LOD1_normal.png"/>
+    <File fileId="8" filename="$data/foliage/sunflower/sunflowerStage02_alpha.png"/>
+    <File fileId="6" filename="$data/foliage/sunflower/sunflowerStage02_diffuse.png"/>
+    <File fileId="7" filename="$data/foliage/sunflower/sunflowerStage02_normal.png"/>
+    <File fileId="11" filename="$data/foliage/sunflower/sunflowerStage03_alpha.png"/>
+    <File fileId="9" filename="$data/foliage/sunflower/sunflowerStage03_diffuse.png"/>
+    <File fileId="10" filename="$data/foliage/sunflower/sunflowerStage03_normal.png"/>
+    <File fileId="26" filename="$data/foliage/sunflower/sunflowerStage04LOD1_alpha.png"/>
+    <File fileId="24" filename="$data/foliage/sunflower/sunflowerStage04LOD1_diffuse.png"/>
+    <File fileId="25" filename="$data/foliage/sunflower/sunflowerStage04LOD1_normal.png"/>
+    <File fileId="14" filename="$data/foliage/sunflower/sunflowerStage04_alpha.png"/>
+    <File fileId="12" filename="$data/foliage/sunflower/sunflowerStage04_diffuse.png"/>
+    <File fileId="13" filename="$data/foliage/sunflower/sunflowerStage04_normal.png"/>
+    <File fileId="29" filename="$data/foliage/sunflower/sunflowerStage05LOD1_alpha.png"/>
+    <File fileId="27" filename="$data/foliage/sunflower/sunflowerStage05LOD1_diffuse.png"/>
+    <File fileId="28" filename="$data/foliage/sunflower/sunflowerStage05LOD1_normal.png"/>
+    <File fileId="17" filename="$data/foliage/sunflower/sunflowerStage05_alpha.png"/>
+    <File fileId="15" filename="$data/foliage/sunflower/sunflowerStage05_diffuse.png"/>
+    <File fileId="16" filename="$data/foliage/sunflower/sunflowerStage05_normal.png"/>
+    <File fileId="32" filename="$data/foliage/sunflower/sunflowerStage06LOD1_alpha.png"/>
+    <File fileId="30" filename="$data/foliage/sunflower/sunflowerStage06LOD1_diffuse.png"/>
+    <File fileId="31" filename="$data/foliage/sunflower/sunflowerStage06LOD1_normal.png"/>
+    <File fileId="3" filename="$data/shaders/fruitGrowthFoliageShader.xml"/>
   </Files>
 
+
   <Materials>
-    <Material name="sunflowerStage01_mat" materialId="1" specularColor="0 0 0" customShaderId="3" customShaderVariation="PLANT_ROTATION">
-      <CustomParameter name="snowScale" value="0.25"/>
-      <Custommap name="alphaMap" fileId="4"/>
+    <Material name="sunflowerStage01_mat" materialId="238" customShaderId="3" customShaderVariation="PLANT_ROTATION">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
+      <Custommap name="alphaMap" fileId="5"/>
+      <CustomParameter name="snowScale" value="0.25 0 0 0"/>
     </Material>
-    <Material name="sunflowerStage02_mat" materialId="2" specularColor="0 0 0" customShaderId="3" customShaderVariation="PLANT_ROTATION">
-      <CustomParameter name="snowScale" value="0.25"/>
-      <Custommap name="alphaMap" fileId="7"/>
-      <Texture fileId="5"/>
-      <Normalmap fileId="6"/>
+    <Material name="sunflowerStage01LOD1_mat" materialId="239" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+      <Custommap name="alphaMap" fileId="20"/>
+      <CustomParameter name="snowScale" value="0.17 0 3 0"/>
     </Material>
-    <Material name="sunflowerStage03_mat" materialId="3" specularColor="0 0 0" customShaderId="3" customShaderVariation="PLANT_ROTATION">
-      <CustomParameter name="snowScale" value="0.25"/>
-      <Custommap name="alphaMap" fileId="10"/>
-      <Texture fileId="8"/>
-      <Normalmap fileId="9"/>
+    <Material name="sunflowerStage02_mat" materialId="240" customShaderId="3" customShaderVariation="PLANT_ROTATION">
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+      <Custommap name="alphaMap" fileId="8"/>
+      <CustomParameter name="snowScale" value="0.25 0 0 0"/>
     </Material>
-    <Material name="sunflowerStage04_mat" materialId="4" specularColor="0 0 0" customShaderId="3" customShaderVariation="PLANT_ROTATION">
-      <CustomParameter name="snowScale" value="0.25"/>
-      <Custommap name="alphaMap" fileId="13"/>
-      <Texture fileId="11"/>
-      <Normalmap fileId="12"/>
+    <Material name="sunflowerStage02LOD1_mat" materialId="241" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Texture fileId="21"/>
+      <Normalmap fileId="22"/>
+      <Custommap name="alphaMap" fileId="23"/>
+      <CustomParameter name="snowScale" value="0.17 0 3 0"/>
     </Material>
-    <Material name="sunflowerStage05_mat" materialId="5" specularColor="0 0 0" customShaderId="3" customShaderVariation="PLANT_ROTATION">
-      <CustomParameter name="snowScale" value="0.25"/>
-      <Custommap name="alphaMap" fileId="16"/>
-      <Texture fileId="14"/>
-      <Normalmap fileId="15"/>
+    <Material name="sunflowerStage03_mat" materialId="242" customShaderId="3" customShaderVariation="PLANT_ROTATION">
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+      <Custommap name="alphaMap" fileId="11"/>
+      <CustomParameter name="snowScale" value="0.25 0 0 0"/>
     </Material>
-    <Material name="sunflowerStage01LOD1_mat" materialId="6" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.17"/>
-      <Custommap name="alphaMap" fileId="19"/>
-      <Texture fileId="17"/>
-      <Normalmap fileId="18"/>
+    <Material name="sunflowerStage04_mat" materialId="243" customShaderId="3" customShaderVariation="PLANT_ROTATION">
+      <Texture fileId="12"/>
+      <Normalmap fileId="13"/>
+      <Custommap name="alphaMap" fileId="14"/>
+      <CustomParameter name="snowScale" value="0.25 0 0 0"/>
     </Material>
-    <Material name="sunflowerStage02LOD1_mat" materialId="7" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.17"/>
-      <Custommap name="alphaMap" fileId="22"/>
-      <Texture fileId="20"/>
-      <Normalmap fileId="21"/>
+    <Material name="sunflowerStage04LOD1_mat" materialId="244" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Texture fileId="24"/>
+      <Normalmap fileId="25"/>
+      <Custommap name="alphaMap" fileId="26"/>
+      <CustomParameter name="snowScale" value="0.17 0 3 0"/>
     </Material>
-    <Material name="sunflowerStage03LOD1_mat" materialId="11" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.17"/>
-      <Custommap name="alphaMap" fileId="25"/>
-      <Texture fileId="23"/>
-      <Normalmap fileId="24"/>
+    <Material name="sunflowerStage05_mat" materialId="245" customShaderId="3" customShaderVariation="PLANT_ROTATION">
+      <Texture fileId="15"/>
+      <Normalmap fileId="16"/>
+      <Custommap name="alphaMap" fileId="17"/>
+      <CustomParameter name="snowScale" value="0.25 0 0 0"/>
     </Material>
-    <Material name="sunflowerStage04LOD1_mat" materialId="8" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.17"/>
-      <Custommap name="alphaMap" fileId="28"/>
-      <Texture fileId="26"/>
-      <Normalmap fileId="27"/>
+    <Material name="sunflowerStage05LOD1_mat" materialId="246" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Texture fileId="27"/>
+      <Normalmap fileId="28"/>
+      <Custommap name="alphaMap" fileId="29"/>
+      <CustomParameter name="snowScale" value="0.17 0 3 0"/>
     </Material>
-    <Material name="sunflowerStage05LOD1_mat" materialId="9" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.17"/>
-      <Custommap name="alphaMap" fileId="31"/>
-      <Texture fileId="29"/>
-      <Normalmap fileId="30"/>
-    </Material>
-    <Material name="sunflowerStage06LOD1_mat" materialId="10" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.17"/>
-      <Custommap name="alphaMap" fileId="34"/>
-      <Texture fileId="32"/>
-      <Normalmap fileId="33"/>
+    <Material name="sunflowerStage06LOD1_mat" materialId="247" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Texture fileId="30"/>
+      <Normalmap fileId="31"/>
+      <Custommap name="alphaMap" fileId="32"/>
+      <CustomParameter name="snowScale" value="0.17 0 3 0"/>
     </Material>
   </Materials>
 
@@ -112,35 +107,39 @@
   <Shapes externalShapesFile="sunflower.i3d.shapes">
   </Shapes>
 
+
+  <Dynamics>
+  </Dynamics>
+
   <Scene>
-    <TransformGroup name="sunflower" collision="false" clipDistance="500" nodeId="1">
-      <TransformGroup name="LOD0" nodeId="2">
-        <Shape name="greenSmall" shapeId="1" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="3"/>
-        <Shape name="greenMiddle" shapeId="2" castsShadows="true" receiveShadows="true" materialIds="2" clipDistance="500" nodeId="4"/>
-        <Shape name="greenBig01" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="5"/>
-        <Shape name="greenBig02" shapeId="4" castsShadows="true" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="6"/>
-        <Shape name="greenBig03" shapeId="5" castsShadows="true" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="7"/>
-        <Shape name="greenBig04" shapeId="6" castsShadows="true" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="8"/>
-        <Shape name="harvestReady" shapeId="7" castsShadows="true" receiveShadows="true" materialIds="4" clipDistance="500" nodeId="9"/>
-        <Shape name="dead" shapeId="8" castsShadows="true" receiveShadows="true" materialIds="5" clipDistance="500" nodeId="10"/>
-        <Shape name="cut" shapeId="9" castsShadows="true" receiveShadows="true" materialIds="4" clipDistance="500" nodeId="11"/>
+      <TransformGroup name="sunflower" clipDistance="500" nodeId="271">
+        <TransformGroup name="LOD0" nodeId="272">
+          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="273" materialIds="238" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="274" materialIds="240" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="greenBig01" clipDistance="500" nodeId="275" materialIds="242" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="greenBig02" clipDistance="500" nodeId="276" materialIds="242" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="greenBig03" clipDistance="500" nodeId="277" materialIds="242" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="greenBig04" clipDistance="500" nodeId="278" materialIds="242" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="harvestReady" clipDistance="500" nodeId="279" materialIds="243" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="dead" clipDistance="500" nodeId="280" materialIds="245" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="9" name="tiretracks1" clipDistance="500" nodeId="300" materialIds="243" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="tiretracks2" clipDistance="500" nodeId="302" materialIds="243" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="11" name="tiretracks3" clipDistance="500" nodeId="304" materialIds="243" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="tiretracks4" clipDistance="500" nodeId="306" materialIds="243" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="285" materialIds="243" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="LOD1" nodeId="286">
+          <Shape shapeId="14" name="greenSmall" clipDistance="500" nodeId="287" materialIds="239" receiveShadows="true"/>
+          <Shape shapeId="15" name="greenMiddle" clipDistance="500" nodeId="288" materialIds="241" receiveShadows="true"/>
+          <Shape shapeId="16" name="greenBig01" clipDistance="500" nodeId="289" materialIds="242" receiveShadows="true"/>
+          <Shape shapeId="17" name="greenBig02" clipDistance="500" nodeId="290" materialIds="242" receiveShadows="true"/>
+          <Shape shapeId="18" name="greenBig03" clipDistance="500" nodeId="291" materialIds="242" receiveShadows="true"/>
+          <Shape shapeId="19" name="greenBig04" clipDistance="500" nodeId="292" materialIds="242" receiveShadows="true"/>
+          <Shape shapeId="20" name="harvestReady" clipDistance="500" nodeId="293" materialIds="244" receiveShadows="true"/>
+          <Shape shapeId="21" name="dead" clipDistance="500" nodeId="294" materialIds="246" receiveShadows="true"/>
+          <Shape shapeId="22" name="cut" clipDistance="500" nodeId="295" materialIds="247" receiveShadows="true"/>
+        </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="LOD1" nodeId="12">
-        <Shape name="greenSmall" shapeId="10" castsShadows="false" receiveShadows="true" materialIds="6" clipDistance="500" nodeId="13"/>
-        <Shape name="greenMiddle" shapeId="11" castsShadows="false" receiveShadows="true" materialIds="7" clipDistance="500" nodeId="14"/>
-        <Shape name="greenBig01" shapeId="12" castsShadows="false" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="15"/>
-        <Shape name="greenBig02" shapeId="13" castsShadows="false" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="16"/>
-        <Shape name="greenBig03" shapeId="14" castsShadows="false" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="17"/>
-        <Shape name="greenBig04" shapeId="15" castsShadows="false" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="18"/>
-        <Shape name="harvestReady" shapeId="16" castsShadows="false" receiveShadows="true" materialIds="8" clipDistance="500" nodeId="19"/>
-        <Shape name="dead" shapeId="17" castsShadows="false" receiveShadows="true" materialIds="9" clipDistance="500" nodeId="20"/>
-        <Shape name="cut" shapeId="18" castsShadows="false" receiveShadows="true" materialIds="10" clipDistance="500" nodeId="21"/>
-      </TransformGroup>
-    </TransformGroup>
-    <Shape name="greenBig_billboard" shapeId="19" castsShadows="false" receiveShadows="true" materialIds="11" clipDistance="500" nodeId="22"/>
-    <TransformGroup name="null1" translation="0 0.463729 0" nodeId="23"/>
   </Scene>
 
-  <UserAttributes>
-  </UserAttributes>
 </i3D>

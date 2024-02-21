@@ -102,10 +102,6 @@
                 <foliageLod blockShape="0>0|11" />
                 <foliageLod blockShape="0>1|11" />
             </foliageShape>
-            <foliageShape>
-                <foliageLod blockShape="0>0|12" />
-                <foliageLod blockShape="0>1|12" />
-            </foliageShape>
         </foliageState>
 		
 		<!-- Original -->
@@ -151,42 +147,42 @@
 		
 		<!-- tire tracks (harvested) - Fahrspur in State 9 geändert für's Mulchen -->
 		<!-- 1 0 0 0 - tire tracks (harvested) -->
-        <foliageState name="tire tracks" width="2.0" height="0.35" >
+        <foliageState name="tire tracks" width="1" height="1" >
+            <foliageShape probability="3">
+                <foliageLod blockShape="0>0|12" />
+                <foliageLod blockShape="0>1|12" />
+            </foliageShape>
             <foliageShape probability="3">
                 <foliageLod blockShape="0>0|13" />
                 <foliageLod blockShape="0>1|13" />
             </foliageShape>
-            <foliageShape probability="3">
+            <foliageShape probability="2">
                 <foliageLod blockShape="0>0|14" />
                 <foliageLod blockShape="0>1|14" />
             </foliageShape>
-            <foliageShape probability="2">
+            <foliageShape probability="1">
                 <foliageLod blockShape="0>0|15" />
                 <foliageLod blockShape="0>1|15" />
-            </foliageShape>
-            <foliageShape probability="1">
-                <foliageLod blockShape="0>0|16" />
-                <foliageLod blockShape="0>1|16" />
             </foliageShape>
         </foliageState>
 		<!-- harvested (cut) in State 10 geändert für's Mulchen -->
 		<!-- 1 0 0 1 - harvested (cut) -->
-        <foliageState name="harvested" height="1.3" >
+        <foliageState name="harvested" height="1.2" >
             <foliageShape probability="3">
-                <foliageLod blockShape="0>0|13" />
-                <foliageLod blockShape="0>1|13" />
-            </foliageShape>
-            <foliageShape probability="3">
-                <foliageLod blockShape="0>0|14" />
-                <foliageLod blockShape="0>1|14" />
-            </foliageShape>
-            <foliageShape probability="2">
-                <foliageLod blockShape="0>0|15" />
-                <foliageLod blockShape="0>1|15" />
-            </foliageShape>
-            <foliageShape probability="1">
                 <foliageLod blockShape="0>0|16" />
                 <foliageLod blockShape="0>1|16" />
+            </foliageShape>
+            <foliageShape probability="3">
+                <foliageLod blockShape="0>0|17" />
+                <foliageLod blockShape="0>1|17" />
+            </foliageShape>
+            <foliageShape probability="2">
+                <foliageLod blockShape="0>0|18" />
+                <foliageLod blockShape="0>1|18" />
+            </foliageShape>
+            <foliageShape probability="1">
+                <foliageLod blockShape="0>0|19" />
+                <foliageLod blockShape="0>1|19" />
             </foliageShape>
         </foliageState>
 		<!--  -->

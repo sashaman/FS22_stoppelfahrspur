@@ -96,7 +96,7 @@
 
 		<!-- tire tracks (harvested) - Fahrspur in State 9 geändert für's Mulchen -->
         <!-- 1 0 0 1 - tire tracks (harvested) -->
-        <foliageState name="tire tracks" width="2.0" height="0.3" >
+        <foliageState name="tire tracks" width="1" height="1" >
             <foliageShape>
                 <foliageLod blockShape="0>0|5" />
                 <foliageLod blockShape="0>1|5" />
@@ -106,7 +106,7 @@
 		<!-- 0 1 0 1 - harvested (cut) -->
         <foliageState name="harvested" width="1.6" height="1.75" >
             <foliageShape>
-                <foliageLod blockShape="0>0|5" />
+                <foliageLod blockShape="0>0|6" />
                 <foliageLod blockShape="0>1|5" />
             </foliageShape>
         </foliageState>

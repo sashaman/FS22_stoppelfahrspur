@@ -1,65 +1,69 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<i3D name="oat" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+<i3D name="oat.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.6"/>
+  </Asset>
 
   <Files>
-    <File fileId="7" filename="$data/foliage/oat/oat01LOD_alpha_H.png" />
-    <File fileId="5" filename="$data/foliage/oat/oat01LOD_diffuse_H.png" />
-    <File fileId="6" filename="$data/foliage/oat/oat01LOD_normal_H.png" />
-    <File fileId="10" filename="$data/foliage/oat/oat02LOD_alpha_H.png" />
-    <File fileId="8" filename="$data/foliage/oat/oat02LOD_diffuse_H.png" />
-    <File fileId="9" filename="$data/foliage/oat/oat02LOD_normal_H.png" />
-    <File fileId="13" filename="$data/foliage/oat/oat03LOD_alpha_H.png" />
-    <File fileId="11" filename="$data/foliage/oat/oat03LOD_diffuse_H.png" />
-    <File fileId="12" filename="$data/foliage/oat/oat03LOD_normal_H.png" />
-    <File fileId="16" filename="$data/foliage/oat/oat04LOD_alpha_H.png" />
-    <File fileId="14" filename="$data/foliage/oat/oat04LOD_diffuse_H.png" />
-    <File fileId="15" filename="$data/foliage/oat/oat04LOD_normal_H.png" />
-    <File fileId="19" filename="$data/foliage/oat/oat05LOD_alpha_H.png" />
-    <File fileId="17" filename="$data/foliage/oat/oat05LOD_diffuse_H.png" />
-    <File fileId="18" filename="$data/foliage/oat/oat05LOD_normal_H.png" />
-    <File fileId="4" filename="$data/foliage/oat/oat_alpha.png" />
-    <File fileId="1" filename="$data/foliage/oat/oat_diffuse.png" />
-    <File fileId="2" filename="$data/foliage/oat/oat_normal.png" />
-    <File fileId="3" filename="$data/shaders/fruitGrowthFoliageShader.xml" />
+    <File fileId="8" filename="$data/foliage/oat/oat01LOD_alpha_H.png"/>
+    <File fileId="6" filename="$data/foliage/oat/oat01LOD_diffuse_H.png"/>
+    <File fileId="7" filename="$data/foliage/oat/oat01LOD_normal_H.png"/>
+    <File fileId="11" filename="$data/foliage/oat/oat02LOD_alpha_H.png"/>
+    <File fileId="9" filename="$data/foliage/oat/oat02LOD_diffuse_H.png"/>
+    <File fileId="10" filename="$data/foliage/oat/oat02LOD_normal_H.png"/>
+    <File fileId="14" filename="$data/foliage/oat/oat03LOD_alpha_H.png"/>
+    <File fileId="12" filename="$data/foliage/oat/oat03LOD_diffuse_H.png"/>
+    <File fileId="13" filename="$data/foliage/oat/oat03LOD_normal_H.png"/>
+    <File fileId="17" filename="$data/foliage/oat/oat04LOD_alpha_H.png"/>
+    <File fileId="15" filename="$data/foliage/oat/oat04LOD_diffuse_H.png"/>
+    <File fileId="16" filename="$data/foliage/oat/oat04LOD_normal_H.png"/>
+    <File fileId="20" filename="$data/foliage/oat/oat05LOD_alpha_H.png"/>
+    <File fileId="18" filename="$data/foliage/oat/oat05LOD_diffuse_H.png"/>
+    <File fileId="19" filename="$data/foliage/oat/oat05LOD_normal_H.png"/>
+    <File fileId="5" filename="$data/foliage/oat/oat_alpha.png"/>
+    <File fileId="1" filename="$data/foliage/oat/oat_diffuse.png"/>
+    <File fileId="2" filename="$data/foliage/oat/oat_normal.png"/>
+    <File fileId="3" filename="$data/shaders/fruitGrowthFoliageShader.xml"/>
   </Files>
 
+
   <Materials>
-    <Material name="oat_mat" materialId="1" specularColor="0 0 0" customShaderId="3">
-      <CustomParameter name="snowScale" value="0.4"/>
-      <Custommap name="alphaMap" fileId="4"/>
+    <Material name="oat01LOD_mat" materialId="101" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+      <Custommap name="alphaMap" fileId="8"/>
+      <CustomParameter name="snowScale" value="0.245 0 0 0"/>
+    </Material>
+    <Material name="oat02LOD_mat" materialId="102" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+      <Custommap name="alphaMap" fileId="11"/>
+      <CustomParameter name="snowScale" value="0.16 0 0 0"/>
+    </Material>
+    <Material name="oat03LOD_mat" materialId="103" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Texture fileId="12"/>
+      <Normalmap fileId="13"/>
+      <Custommap name="alphaMap" fileId="14"/>
+      <CustomParameter name="snowScale" value="0.23 0 0 0"/>
+    </Material>
+    <Material name="oat04LOD_mat" materialId="104" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Texture fileId="15"/>
+      <Normalmap fileId="16"/>
+      <Custommap name="alphaMap" fileId="17"/>
+      <CustomParameter name="snowScale" value="0.23 0 0 0"/>
+    </Material>
+    <Material name="oat05LOD_mat" materialId="105" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+      <Custommap name="alphaMap" fileId="20"/>
+      <CustomParameter name="snowScale" value="0.15 0 0 0"/>
+    </Material>
+    <Material name="oat_mat" materialId="106" customShaderId="3">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
-    </Material>
-    <Material name="oat01LOD_mat" materialId="2" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.245"/>
-      <Custommap name="alphaMap" fileId="7"/>
-      <Texture fileId="5"/>
-      <Normalmap fileId="6"/>
-    </Material>
-    <Material name="oat02LOD_mat" materialId="3" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.16"/>
-      <Custommap name="alphaMap" fileId="10"/>
-      <Texture fileId="8"/>
-      <Normalmap fileId="9"/>
-    </Material>
-    <Material name="oat03LOD_mat" materialId="4" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.23"/>
-      <Custommap name="alphaMap" fileId="13"/>
-      <Texture fileId="11"/>
-      <Normalmap fileId="12"/>
-    </Material>
-    <Material name="oat04LOD_mat" materialId="5" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.23"/>
-      <Custommap name="alphaMap" fileId="16"/>
-      <Texture fileId="14"/>
-      <Normalmap fileId="15"/>
-    </Material>
-    <Material name="oat05LOD_mat" materialId="6" specularColor="0 0 0" customShaderId="3" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.15"/>
-      <Custommap name="alphaMap" fileId="19"/>
-      <Texture fileId="17"/>
-      <Normalmap fileId="18"/>
+      <Custommap name="alphaMap" fileId="5"/>
+      <CustomParameter name="snowScale" value="0.4 0 0 0"/>
     </Material>
   </Materials>
 
@@ -67,27 +71,30 @@
   <Shapes externalShapesFile="oat.i3d.shapes">
   </Shapes>
 
+
+  <Dynamics>
+  </Dynamics>
+
   <Scene>
-    <TransformGroup name="oat" nodeId="1">
-      <TransformGroup name="LOD0" nodeId="2">
-        <Shape name="greenSmall" shapeId="1" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="3"/>
-        <Shape name="greenMiddle" shapeId="2" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="4"/>
-        <Shape name="greenBig" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="5"/>
-        <Shape name="harvestReady" shapeId="4" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="6"/>
-        <Shape name="dead" shapeId="5" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="7"/>
-        <Shape name="cut" shapeId="6" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="8"/>
+      <TransformGroup name="oat" nodeId="121">
+        <TransformGroup name="LOD0" nodeId="122">
+          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="123" materialIds="106" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="124" materialIds="106" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="125" materialIds="106" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="harvestReady" clipDistance="500" nodeId="126" materialIds="106" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="127" materialIds="106" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="oat_tiretracks" rotation="-4.32571e-06 -0 0" clipDistance="500" nodeId="141" materialIds="106" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="129" materialIds="106" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="LOD1" nodeId="130">
+          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="131" materialIds="101" receiveShadows="true"/>
+          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="132" materialIds="102" receiveShadows="true"/>
+          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="133" materialIds="103" receiveShadows="true"/>
+          <Shape shapeId="11" name="harvestReady" clipDistance="500" nodeId="134" materialIds="104" receiveShadows="true"/>
+          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="135" materialIds="105" receiveShadows="true"/>
+          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="136" materialIds="104" receiveShadows="true"/>
+        </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="LOD1" nodeId="9">
-        <Shape name="greenSmall" shapeId="7" castsShadows="false" receiveShadows="true" materialIds="2" clipDistance="500" nodeId="10"/>
-        <Shape name="greenMiddle" shapeId="8" castsShadows="false" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="11"/>
-        <Shape name="greenBig" shapeId="9" castsShadows="false" receiveShadows="true" materialIds="4" clipDistance="500" nodeId="12"/>
-        <Shape name="harvestReady" shapeId="10" castsShadows="false" receiveShadows="true" materialIds="5" clipDistance="500" nodeId="13"/>
-        <Shape name="dead" shapeId="11" castsShadows="false" receiveShadows="true" materialIds="6" clipDistance="500" nodeId="14"/>
-        <Shape name="cut" shapeId="12" castsShadows="false" receiveShadows="true" materialIds="5" clipDistance="500" nodeId="15"/>
-      </TransformGroup>
-    </TransformGroup>
   </Scene>
 
-  <UserAttributes>
-  </UserAttributes>
 </i3D>

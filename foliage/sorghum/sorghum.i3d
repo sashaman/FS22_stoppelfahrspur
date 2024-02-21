@@ -1,120 +1,124 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<i3D name="sorghum" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+<i3D name="sorghum.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.6"/>
+  </Asset>
 
   <Files>
-    <File fileId="24" filename="$data/foliage/sorghum/sorghumStage01LOD1_alpha.png" />
-    <File fileId="22" filename="$data/foliage/sorghum/sorghumStage01LOD1_diffuse.png" />
-    <File fileId="23" filename="$data/foliage/sorghum/sorghumStage01LOD1_normal.png" />
-    <File fileId="5" filename="$data/foliage/sorghum/sorghumStage01_alpha.png" />
-    <File fileId="1" filename="$data/foliage/sorghum/sorghumStage01_diffuse.png" />
-    <File fileId="3" filename="$data/foliage/sorghum/sorghumStage01_fmask.png" />
-    <File fileId="2" filename="$data/foliage/sorghum/sorghumStage01_normal.png" />
-    <File fileId="27" filename="$data/foliage/sorghum/sorghumStage02LOD1_alpha.png" />
-    <File fileId="25" filename="$data/foliage/sorghum/sorghumStage02LOD1_diffuse.png" />
-    <File fileId="26" filename="$data/foliage/sorghum/sorghumStage02LOD1_normal.png" />
-    <File fileId="9" filename="$data/foliage/sorghum/sorghumStage02_alpha.png" />
-    <File fileId="6" filename="$data/foliage/sorghum/sorghumStage02_diffuse.png" />
-    <File fileId="8" filename="$data/foliage/sorghum/sorghumStage02_fmask.png" />
-    <File fileId="7" filename="$data/foliage/sorghum/sorghumStage02_normal.png" />
-    <File fileId="30" filename="$data/foliage/sorghum/sorghumStage03LOD1_alpha.png" />
-    <File fileId="28" filename="$data/foliage/sorghum/sorghumStage03LOD1_diffuse.png" />
-    <File fileId="29" filename="$data/foliage/sorghum/sorghumStage03LOD1_normal.png" />
-    <File fileId="13" filename="$data/foliage/sorghum/sorghumStage03_alpha.png" />
-    <File fileId="10" filename="$data/foliage/sorghum/sorghumStage03_diffuse.png" />
-    <File fileId="12" filename="$data/foliage/sorghum/sorghumStage03_fmask.png" />
-    <File fileId="11" filename="$data/foliage/sorghum/sorghumStage03_normal.png" />
-    <File fileId="33" filename="$data/foliage/sorghum/sorghumStage04LOD1_alpha.png" />
-    <File fileId="31" filename="$data/foliage/sorghum/sorghumStage04LOD1_diffuse.png" />
-    <File fileId="32" filename="$data/foliage/sorghum/sorghumStage04LOD1_normal.png" />
-    <File fileId="17" filename="$data/foliage/sorghum/sorghumStage04_alpha.png" />
-    <File fileId="14" filename="$data/foliage/sorghum/sorghumStage04_diffuse.png" />
-    <File fileId="16" filename="$data/foliage/sorghum/sorghumStage04_fmask.png" />
-    <File fileId="15" filename="$data/foliage/sorghum/sorghumStage04_normal.png" />
-    <File fileId="36" filename="$data/foliage/sorghum/sorghumStage05LOD1_alpha.png" />
-    <File fileId="34" filename="$data/foliage/sorghum/sorghumStage05LOD1_diffuse.png" />
-    <File fileId="35" filename="$data/foliage/sorghum/sorghumStage05LOD1_normal.png" />
-    <File fileId="21" filename="$data/foliage/sorghum/sorghumStage05_alpha.png" />
-    <File fileId="18" filename="$data/foliage/sorghum/sorghumStage05_diffuse.png" />
-    <File fileId="20" filename="$data/foliage/sorghum/sorghumStage05_fmask.png" />
-    <File fileId="19" filename="$data/foliage/sorghum/sorghumStage05_normal.png" />
-    <File fileId="39" filename="$data/foliage/sorghum/sorghumStage06LOD1_alpha.png" />
-    <File fileId="37" filename="$data/foliage/sorghum/sorghumStage06LOD1_diffuse.png" />
-    <File fileId="38" filename="$data/foliage/sorghum/sorghumStage06LOD1_normal.png" />
-    <File fileId="4" filename="$data/shaders/fruitGrowthFoliageShader.xml" />
+    <File fileId="26" filename="$data/foliage/sorghum/sorghumStage01LOD1_alpha.png"/>
+    <File fileId="23" filename="$data/foliage/sorghum/sorghumStage01LOD1_diffuse.png"/>
+    <File fileId="24" filename="$data/foliage/sorghum/sorghumStage01LOD1_normal.png"/>
+    <File fileId="6" filename="$data/foliage/sorghum/sorghumStage01_alpha.png"/>
+    <File fileId="1" filename="$data/foliage/sorghum/sorghumStage01_diffuse.png"/>
+    <File fileId="3" filename="$data/foliage/sorghum/sorghumStage01_fmask.png"/>
+    <File fileId="2" filename="$data/foliage/sorghum/sorghumStage01_normal.png"/>
+    <File fileId="29" filename="$data/foliage/sorghum/sorghumStage02LOD1_alpha.png"/>
+    <File fileId="27" filename="$data/foliage/sorghum/sorghumStage02LOD1_diffuse.png"/>
+    <File fileId="28" filename="$data/foliage/sorghum/sorghumStage02LOD1_normal.png"/>
+    <File fileId="10" filename="$data/foliage/sorghum/sorghumStage02_alpha.png"/>
+    <File fileId="7" filename="$data/foliage/sorghum/sorghumStage02_diffuse.png"/>
+    <File fileId="9" filename="$data/foliage/sorghum/sorghumStage02_fmask.png"/>
+    <File fileId="8" filename="$data/foliage/sorghum/sorghumStage02_normal.png"/>
+    <File fileId="33" filename="$data/foliage/sorghum/sorghumStage03LOD1_alpha.png"/>
+    <File fileId="30" filename="$data/foliage/sorghum/sorghumStage03LOD1_diffuse.png"/>
+    <File fileId="31" filename="$data/foliage/sorghum/sorghumStage03LOD1_normal.png"/>
+    <File fileId="14" filename="$data/foliage/sorghum/sorghumStage03_alpha.png"/>
+    <File fileId="11" filename="$data/foliage/sorghum/sorghumStage03_diffuse.png"/>
+    <File fileId="13" filename="$data/foliage/sorghum/sorghumStage03_fmask.png"/>
+    <File fileId="12" filename="$data/foliage/sorghum/sorghumStage03_normal.png"/>
+    <File fileId="36" filename="$data/foliage/sorghum/sorghumStage04LOD1_alpha.png"/>
+    <File fileId="34" filename="$data/foliage/sorghum/sorghumStage04LOD1_diffuse.png"/>
+    <File fileId="35" filename="$data/foliage/sorghum/sorghumStage04LOD1_normal.png"/>
+    <File fileId="18" filename="$data/foliage/sorghum/sorghumStage04_alpha.png"/>
+    <File fileId="15" filename="$data/foliage/sorghum/sorghumStage04_diffuse.png"/>
+    <File fileId="17" filename="$data/foliage/sorghum/sorghumStage04_fmask.png"/>
+    <File fileId="16" filename="$data/foliage/sorghum/sorghumStage04_normal.png"/>
+    <File fileId="40" filename="$data/foliage/sorghum/sorghumStage05LOD1_alpha.png"/>
+    <File fileId="37" filename="$data/foliage/sorghum/sorghumStage05LOD1_diffuse.png"/>
+    <File fileId="38" filename="$data/foliage/sorghum/sorghumStage05LOD1_normal.png"/>
+    <File fileId="22" filename="$data/foliage/sorghum/sorghumStage05_alpha.png"/>
+    <File fileId="19" filename="$data/foliage/sorghum/sorghumStage05_diffuse.png"/>
+    <File fileId="21" filename="$data/foliage/sorghum/sorghumStage05_fmask.png"/>
+    <File fileId="20" filename="$data/foliage/sorghum/sorghumStage05_normal.png"/>
+    <File fileId="43" filename="$data/foliage/sorghum/sorghumStage06LOD1_alpha.png"/>
+    <File fileId="41" filename="$data/foliage/sorghum/sorghumStage06LOD1_diffuse.png"/>
+    <File fileId="42" filename="$data/foliage/sorghum/sorghumStage06LOD1_normal.png"/>
+    <File fileId="4" filename="$data/shaders/fruitGrowthFoliageShader.xml"/>
   </Files>
 
+
   <Materials>
-    <Material name="sorghumStage01_mat" materialId="1" customShaderId="4">
-      <CustomParameter name="snowScale" value="0.35"/>
-      <Custommap name="alphaMap" fileId="5"/>
+    <Material name="sorghumStage01_mat" materialId="143" customShaderId="4">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
+      <Custommap name="alphaMap" fileId="6"/>
+      <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="sorghumStage02_mat" materialId="2" customShaderId="4">
-      <CustomParameter name="snowScale" value="0.35"/>
-      <Custommap name="alphaMap" fileId="9"/>
-      <Texture fileId="6"/>
-      <Normalmap fileId="7"/>
-      <Glossmap fileId="8"/>
+    <Material name="sorghumStage01LOD1_mat" materialId="144" specularColor="0.0941177 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+      <Texture fileId="23"/>
+      <Normalmap fileId="24"/>
+      <Custommap name="alphaMap" fileId="26"/>
+      <CustomParameter name="snowScale" value="0.25 1 0 4"/>
     </Material>
-    <Material name="sorghumStage03_mat" materialId="3" customShaderId="4">
-      <CustomParameter name="snowScale" value="0.35"/>
-      <Custommap name="alphaMap" fileId="13"/>
-      <Texture fileId="10"/>
-      <Normalmap fileId="11"/>
-      <Glossmap fileId="12"/>
+    <Material name="sorghumStage02_mat" materialId="145" customShaderId="4">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <Custommap name="alphaMap" fileId="10"/>
+      <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="sorghumStage04_mat" materialId="4" customShaderId="4">
-      <CustomParameter name="snowScale" value="0.35"/>
-      <Custommap name="alphaMap" fileId="17"/>
-      <Texture fileId="14"/>
-      <Normalmap fileId="15"/>
-      <Glossmap fileId="16"/>
+    <Material name="sorghumStage02LOD1_mat" materialId="146" specularColor="0.0941177 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+      <Texture fileId="27"/>
+      <Normalmap fileId="28"/>
+      <Custommap name="alphaMap" fileId="29"/>
+      <CustomParameter name="snowScale" value="0.25 1 0 4"/>
     </Material>
-    <Material name="sorghumStage05_mat" materialId="5" customShaderId="4">
-      <CustomParameter name="snowScale" value="0.35"/>
-      <Custommap name="alphaMap" fileId="21"/>
-      <Texture fileId="18"/>
-      <Normalmap fileId="19"/>
-      <Glossmap fileId="20"/>
+    <Material name="sorghumStage03_mat" materialId="147" customShaderId="4">
+      <Texture fileId="11"/>
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+      <Custommap name="alphaMap" fileId="14"/>
+      <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="sorghumStage01LOD1_mat" materialId="6" specularColor="0.098 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.25"/>
-      <Custommap name="alphaMap" fileId="24"/>
-      <Texture fileId="22"/>
-      <Normalmap fileId="23"/>
-    </Material>
-    <Material name="sorghumStage02LOD1_mat" materialId="7" specularColor="0.098 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.25"/>
-      <Custommap name="alphaMap" fileId="27"/>
-      <Texture fileId="25"/>
-      <Normalmap fileId="26"/>
-    </Material>
-    <Material name="sorghumStage03LOD1_mat" materialId="8" specularColor="0.0941 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.25"/>
-      <Custommap name="alphaMap" fileId="30"/>
-      <Texture fileId="28"/>
-      <Normalmap fileId="29"/>
-    </Material>
-    <Material name="sorghumStage04LOD1_mat" materialId="9" specularColor="0.098 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.25"/>
+    <Material name="sorghumStage03LOD1_mat" materialId="148" specularColor="0.0901961 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+      <Texture fileId="30"/>
+      <Normalmap fileId="31"/>
       <Custommap name="alphaMap" fileId="33"/>
-      <Texture fileId="31"/>
-      <Normalmap fileId="32"/>
+      <CustomParameter name="snowScale" value="0.25 1 0 4"/>
     </Material>
-    <Material name="sorghumStage05LOD1_mat" materialId="10" specularColor="0.0901 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.25"/>
-      <Custommap name="alphaMap" fileId="36"/>
+    <Material name="sorghumStage04_mat" materialId="149" customShaderId="4">
+      <Texture fileId="15"/>
+      <Normalmap fileId="16"/>
+      <Glossmap fileId="17"/>
+      <Custommap name="alphaMap" fileId="18"/>
+      <CustomParameter name="snowScale" value="0.35 0 0 0"/>
+    </Material>
+    <Material name="sorghumStage04LOD1_mat" materialId="150" specularColor="0.0941177 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="34"/>
       <Normalmap fileId="35"/>
+      <Custommap name="alphaMap" fileId="36"/>
+      <CustomParameter name="snowScale" value="0.25 1 0 4"/>
     </Material>
-    <Material name="sorghumStage06LOD1_mat" materialId="11" specularColor="0 0 0" customShaderId="4" customShaderVariation="BILLBOARD">
-      <CustomParameter name="snowScale" value="0.25"/>
-      <Custommap name="alphaMap" fileId="39"/>
+    <Material name="sorghumStage05_mat" materialId="151" customShaderId="4">
+      <Texture fileId="19"/>
+      <Normalmap fileId="20"/>
+      <Glossmap fileId="21"/>
+      <Custommap name="alphaMap" fileId="22"/>
+      <CustomParameter name="snowScale" value="0.35 0 0 0"/>
+    </Material>
+    <Material name="sorghumStage05LOD1_mat" materialId="152" specularColor="0.0784314 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="37"/>
       <Normalmap fileId="38"/>
+      <Custommap name="alphaMap" fileId="40"/>
+      <CustomParameter name="snowScale" value="0.25 1 1 0"/>
+    </Material>
+    <Material name="sorghumStage06LOD1_mat" materialId="153" customShaderId="4" customShaderVariation="BILLBOARD">
+      <Texture fileId="41"/>
+      <Normalmap fileId="42"/>
+      <Custommap name="alphaMap" fileId="43"/>
+      <CustomParameter name="snowScale" value="0.25 0 4 0"/>
     </Material>
   </Materials>
 
@@ -122,27 +126,30 @@
   <Shapes externalShapesFile="sorghum.i3d.shapes">
   </Shapes>
 
+
+  <Dynamics>
+  </Dynamics>
+
   <Scene>
-    <TransformGroup name="sorghum" nodeId="1">
-      <TransformGroup name="LOD0" nodeId="2">
-        <Shape name="greenSmall" shapeId="1" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="3"/>
-        <Shape name="greenMiddle" shapeId="2" castsShadows="true" receiveShadows="true" materialIds="2" clipDistance="500" nodeId="4"/>
-        <Shape name="greenBig" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="5"/>
-        <Shape name="harvestReadyGreen" shapeId="4" castsShadows="true" receiveShadows="true" materialIds="4" clipDistance="500" nodeId="6"/>
-        <Shape name="dead" shapeId="5" castsShadows="true" receiveShadows="true" materialIds="5" clipDistance="500" nodeId="7"/>
-        <Shape name="cut" shapeId="6" castsShadows="true" receiveShadows="true" materialIds="4" clipDistance="500" nodeId="8"/>
+      <TransformGroup name="sorghum" nodeId="168">
+        <TransformGroup name="LOD0" nodeId="169">
+          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="170" materialIds="143" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="171" materialIds="145" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="172" materialIds="147" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="harvestReadyGreen" clipDistance="500" nodeId="173" materialIds="149" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="174" materialIds="151" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="sorghum_tiretracks" rotation="-4.32571e-06 -0 0" clipDistance="500" nodeId="188" materialIds="149" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="176" materialIds="149" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="LOD1" nodeId="177">
+          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="178" materialIds="144" receiveShadows="true"/>
+          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="179" materialIds="146" receiveShadows="true"/>
+          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="180" materialIds="148" receiveShadows="true"/>
+          <Shape shapeId="11" name="harvestReadyGreen" clipDistance="500" nodeId="181" materialIds="150" receiveShadows="true"/>
+          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="182" materialIds="152" receiveShadows="true"/>
+          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="183" materialIds="153" receiveShadows="true"/>
+        </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="LOD1" nodeId="9">
-        <Shape name="greenSmall" shapeId="7" castsShadows="false" receiveShadows="true" materialIds="6" clipDistance="500" nodeId="10"/>
-        <Shape name="greenMiddle" shapeId="8" castsShadows="false" receiveShadows="true" materialIds="7" clipDistance="500" nodeId="11"/>
-        <Shape name="greenBig" shapeId="9" castsShadows="false" receiveShadows="true" materialIds="8" clipDistance="500" nodeId="12"/>
-        <Shape name="harvestReadyGreen" shapeId="10" castsShadows="false" receiveShadows="true" materialIds="9" clipDistance="500" nodeId="13"/>
-        <Shape name="dead" shapeId="11" castsShadows="false" receiveShadows="true" materialIds="10" clipDistance="500" nodeId="14"/>
-        <Shape name="cut" shapeId="12" castsShadows="false" receiveShadows="true" materialIds="11" clipDistance="500" nodeId="15"/>
-      </TransformGroup>
-    </TransformGroup>
   </Scene>
 
-  <UserAttributes>
-  </UserAttributes>
 </i3D>
