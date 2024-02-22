@@ -143,7 +143,7 @@
           <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="35" materialIds="9" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="4" name="harvestReady" clipDistance="500" nodeId="36" materialIds="11" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="5" name="dead" clipDistance="500" nodeId="37" materialIds="13" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="6" name="barley_tiretracks" rotation="-4.32571e-06 -0 0" clipDistance="500" nodeId="50" materialIds="15" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="barley_tiretracks" clipDistance="500" nodeId="50" materialIds="15" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="7" name="cut" clipDistance="500" nodeId="39" materialIds="15" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
         <TransformGroup name="LOD1" nodeId="40">

@@ -26,7 +26,7 @@
         <File fileId="13" filename="$data/foliage/maize/maizeStage03_fmask.png"/>
         <File fileId="12" filename="$data/foliage/maize/maizeStage03_normal.png"/>
         <File fileId="42" filename="$data/foliage/maize/maizeStage04LOD1_alpha.png"/>
-        <File fileId="40" filename="$data/foliage/maize/maizeStage04LOD1_diffuse.png"/>
+        <File fileId="40" filename="maizeStage04LOD1_diffuse.png"/>
         <File fileId="41" filename="$data/foliage/maize/maizeStage04LOD1_normal.png"/>
         <File fileId="45" filename="$data/foliage/maize/maizeStage05LOD1_alpha.png"/>
         <File fileId="43" filename="$data/foliage/maize/maizeStage05LOD1_diffuse.png"/>
