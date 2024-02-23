@@ -21,55 +21,55 @@
             <period index="1">
                 <update range="1-2" add="1" />
                 <update range="3-4" add="1" />
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
             <period index="2">
                 <update range="2-3" add="1" />
                 <update range="4-5" add="1" />
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
             <period index="3">
                 <update range="3-4" add="1" />
                 <update range="5-6" add="1" />
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
             <period index="4">
                 <update range="4-5" add="1" />
                 <update range="6-7" add="1" />
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
             <period index="5">
                 <update range="5-6" add="1" />
                 <update range="7" add="1" />
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
             <period index="6">
                 <update range="7" add="1" />
                 <update range="8" add="1" />
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
             <period index="7" plantingAllowed="true">
                 <update range="8" add="1" />
                 <update range="1" add="1" />
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
             <period index="8" plantingAllowed="true">
                 <update range="1-2" add="1" />
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
             <period index="9">
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
             <period index="10">
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
             <period index="11">
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
             <period index="12" plantingAllowed="true">
                 <update range="1" add="1" />
                 <update range="2-3" add="1" />
-				<update range="10" set="10" />  
+				<update range="10" set="10" /> 
             </period>
         </fruit>
 
@@ -301,51 +301,52 @@
             </period>
         </fruit>
 
-        <!-- maize has 8 states -->
-        <fruit name="maize" initialState="4-5"> <!-- not available in spring and thus no initial state -->
-            <period index="1">
-				<update range="9" set="9" />  
-            </period>
-            <period index="2" plantingAllowed="true">
+        <!-- maize has 9 states; 5+6 häckseln, 7+8 reif, 9 verdorrt, 10 fahrspur, 11 cut-->
+        <fruit name="maize" initialState="5-6"> 
+            <period index="1" plantingAllowed="true"><!--März-->
                 <update range="1" add="1" />
-				<update range="9" set="9" />  
+				<update range="10" set="10" /> 
             </period>
-            <period index="3" plantingAllowed="true">
+            <period index="2" plantingAllowed="true"><!--April-->
                 <update range="1-2" add="1" />
-				<update range="9" set="9" />  
+				<update range="10" set="10" /> 
             </period>
-            <period index="4">
-                <update range="2-3" add="1" />
-				<update range="9" set="9" />  
+            <period index="3" plantingAllowed="true"><!--Mai-->
+                <update range="1-3" add="1" />
+				<update range="10" set="10" /> 
             </period>
-            <period index="5">
-                <update range="3-4" add="1" />
-				<update range="9" set="9" />  
+            <period index="4"><!--Juni-->
+                <update range="2-4" add="1" />
+				<update range="10" set="10" /> 
             </period>
-            <period index="6">
-                <update range="4-5" add="1" />
-				<update range="9" set="9" />  
+            <period index="5"><!--Juli-->
+                <update range="3-5" add="1" />
+				<update range="10" set="10" /> 
             </period>
-            <period index="7">
-                <update range="5-6" add="1" />
-				<update range="9" set="9" />  
+            <period index="6"><!--August, Häckseln-->
+                <update range="4-6" add="1" />
+				<update range="10" set="10" /> 
             </period>
-            <period index="8">
-                <update range="6" add="1" />
-				<update range="9" set="9" />  
+            <period index="7"><!--September, Häckseln-->
+                <update range="5-7" add="1" />
+				<update range="10" set="10" /> 
             </period>
-            <period index="9">
-                <update range="7" add="1" />
-				<update range="9" set="9" />  
+            <period index="8"><!--Oktober, Erntereif-->
+                <update range="6-7" add="1" />
+				<update range="10" set="10" /> 
             </period>
-            <period index="10">
-				<update range="9" set="9" />  
+            <period index="9"><!--November, Erntereif-->
+                <update range="7-8" set="9" />	<!--Vergammler! von Mai Stufe 7 verdorrt ebenfalls -->
+				<update range="10" set="10" /> 
             </period>
-            <period index="11">
-				<update range="9" set="9" />  
+            <period index="10"><!--Dezember-->
+				<update range="10" set="10" /> 
             </period>
-            <period index="12">
-				<update range="9" set="9" />  
+            <period index="11"><!--Januar-->
+				<update range="10" set="10" /> 
+            </period>
+            <period index="12"><!--Februar-->
+				<update range="10" set="10" /> 
             </period>
         </fruit>
 
@@ -353,48 +354,48 @@
         <fruit name="sunflower" initialState="5-6">
             <period index="1" plantingAllowed="true">
                 <update range="1" add="1" />
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
             <period index="2" plantingAllowed="true">
                 <update range="1-2" add="1" />
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
             <period index="3">
                 <update range="2-3" add="1" />
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
             <period index="4">
                 <update range="3-4" add="1" />
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
             <period index="5">
                 <update range="4-5" add="1" />
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
             <period index="6">
                 <update range="5-6" add="1" />
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
             <period index="7">
                 <update range="6-7" add="1" />
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
             <period index="8">
                 <update range="7" add="1" />
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
             <period index="9">
                 <update range="8" add="1" />
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
             <period index="10">
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
             <period index="11">
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
             <period index="12">
-			<update range="10" set="10" />  
+			<update range="10" set="10" /> 
             </period>
         </fruit>
 

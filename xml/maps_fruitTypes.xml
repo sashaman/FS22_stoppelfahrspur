@@ -51,14 +51,13 @@
         <fruitType name="maize" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" allowsSeeding="true"  directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.0045" />
-            <harvest minHarvestingGrowthState="7" maxHarvestingGrowthState="7" cutState="10" minForageGrowthState="5" allowsPartialGrowthState="false" literPerSqm="1.12" cutHeight="0.20" forageCutHeight="0.15" chopperTypeName="CHOPPER_MAIZE"/>
-            <growth witheredState="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />
+            <harvest minHarvestingGrowthState="7" maxHarvestingGrowthState="8" cutState="11" minForageGrowthState="5" allowsPartialGrowthState="false" literPerSqm="1.12" cutHeight="0.20" forageCutHeight="0.15" chopperTypeName="CHOPPER_MAIZE"/>
+            <growth witheredState="9" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />
             <growthGroundTypeChange state="7" groundType="HARVEST_READY_OTHER" />
             <options lowSoilDensityRequired="true" increasesSoilDensity="true" consumesLime="true" startSprayState="0" />
             <!-- <preparing outputName="maize_haulm" minGrowthState="8" maxGrowthState="8" preparedGrowthState="11" /> -->
             <!-- <destruction canBeDestroyed="true" filterStart="3" filterEnd="8" /> -->
-            <destruction canBeDestroyed="true" filterStart="3" filterEnd="10" state="9" />
-
+            <destruction canBeDestroyed="true" filterStart="3" filterEnd="11" state="10" />
             <cropCare maxWeederState="2" maxWeederHoeState="3" />
             <mapColors default="0.8069 0.3231 0.0262 1" colorBlind="0.3968 0.3712 0.2159 1"/>
             <mulcher chopperTypeName="CHOPPER_MAIZE" />
