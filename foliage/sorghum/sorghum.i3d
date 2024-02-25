@@ -49,72 +49,72 @@
 
 
   <Materials>
-    <Material name="sorghumStage01_mat" materialId="143" customShaderId="4">
+    <Material name="sorghumStage01_mat" materialId="5" customShaderId="4">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
       <Custommap name="alphaMap" fileId="6"/>
       <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="sorghumStage01LOD1_mat" materialId="144" specularColor="0.0941177 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="sorghumStage01LOD1_mat" materialId="6" specularColor="0.0941177 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="23"/>
       <Normalmap fileId="24"/>
       <Custommap name="alphaMap" fileId="26"/>
       <CustomParameter name="snowScale" value="0.25 1 0 4"/>
     </Material>
-    <Material name="sorghumStage02_mat" materialId="145" customShaderId="4">
+    <Material name="sorghumStage02_mat" materialId="7" customShaderId="4">
       <Texture fileId="7"/>
       <Normalmap fileId="8"/>
       <Glossmap fileId="9"/>
       <Custommap name="alphaMap" fileId="10"/>
       <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="sorghumStage02LOD1_mat" materialId="146" specularColor="0.0941177 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="sorghumStage02LOD1_mat" materialId="8" specularColor="0.0941177 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="27"/>
       <Normalmap fileId="28"/>
       <Custommap name="alphaMap" fileId="29"/>
       <CustomParameter name="snowScale" value="0.25 1 0 4"/>
     </Material>
-    <Material name="sorghumStage03_mat" materialId="147" customShaderId="4">
+    <Material name="sorghumStage03_mat" materialId="9" customShaderId="4">
       <Texture fileId="11"/>
       <Normalmap fileId="12"/>
       <Glossmap fileId="13"/>
       <Custommap name="alphaMap" fileId="14"/>
       <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="sorghumStage03LOD1_mat" materialId="148" specularColor="0.0901961 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="sorghumStage03LOD1_mat" materialId="10" specularColor="0.0901961 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="30"/>
       <Normalmap fileId="31"/>
       <Custommap name="alphaMap" fileId="33"/>
       <CustomParameter name="snowScale" value="0.25 1 0 4"/>
     </Material>
-    <Material name="sorghumStage04_mat" materialId="149" customShaderId="4">
+    <Material name="sorghumStage04_mat" materialId="11" customShaderId="4">
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Glossmap fileId="17"/>
       <Custommap name="alphaMap" fileId="18"/>
       <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="sorghumStage04LOD1_mat" materialId="150" specularColor="0.0941177 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="sorghumStage04LOD1_mat" materialId="12" specularColor="0.0941177 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="34"/>
       <Normalmap fileId="35"/>
       <Custommap name="alphaMap" fileId="36"/>
       <CustomParameter name="snowScale" value="0.25 1 0 4"/>
     </Material>
-    <Material name="sorghumStage05_mat" materialId="151" customShaderId="4">
+    <Material name="sorghumStage05_mat" materialId="13" customShaderId="4">
       <Texture fileId="19"/>
       <Normalmap fileId="20"/>
       <Glossmap fileId="21"/>
       <Custommap name="alphaMap" fileId="22"/>
       <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="sorghumStage05LOD1_mat" materialId="152" specularColor="0.0784314 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="sorghumStage05LOD1_mat" materialId="14" specularColor="0.0784314 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="37"/>
       <Normalmap fileId="38"/>
       <Custommap name="alphaMap" fileId="40"/>
       <CustomParameter name="snowScale" value="0.25 1 1 0"/>
     </Material>
-    <Material name="sorghumStage06LOD1_mat" materialId="153" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="sorghumStage06LOD1_mat" materialId="15" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="41"/>
       <Normalmap fileId="42"/>
       <Custommap name="alphaMap" fileId="43"/>
@@ -131,23 +131,23 @@
   </Dynamics>
 
   <Scene>
-      <TransformGroup name="sorghum" nodeId="168">
-        <TransformGroup name="LOD0" nodeId="169">
-          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="170" materialIds="143" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="171" materialIds="145" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="172" materialIds="147" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="4" name="harvestReadyGreen" clipDistance="500" nodeId="173" materialIds="149" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="174" materialIds="151" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="6" name="sorghum_tiretracks" rotation="-4.32571e-06 -0 0" clipDistance="500" nodeId="188" materialIds="149" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="176" materialIds="149" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="sorghum" nodeId="30">
+        <TransformGroup name="LOD0" nodeId="31">
+          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="32" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="33" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="34" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="harvestReadyGreen" clipDistance="500" nodeId="35" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="36" materialIds="13" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="sorghum_tiretracks" translation="0 -5.98903e-08 0" nodeId="54" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="38" materialIds="11" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="LOD1" nodeId="177">
-          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="178" materialIds="144" receiveShadows="true"/>
-          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="179" materialIds="146" receiveShadows="true"/>
-          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="180" materialIds="148" receiveShadows="true"/>
-          <Shape shapeId="11" name="harvestReadyGreen" clipDistance="500" nodeId="181" materialIds="150" receiveShadows="true"/>
-          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="182" materialIds="152" receiveShadows="true"/>
-          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="183" materialIds="153" receiveShadows="true"/>
+        <TransformGroup name="LOD1" nodeId="39">
+          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="40" materialIds="6" receiveShadows="true"/>
+          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="41" materialIds="8" receiveShadows="true"/>
+          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="42" materialIds="10" receiveShadows="true"/>
+          <Shape shapeId="11" name="harvestReadyGreen" clipDistance="500" nodeId="43" materialIds="12" receiveShadows="true"/>
+          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="44" materialIds="14" receiveShadows="true"/>
+          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="45" materialIds="15" receiveShadows="true"/>
         </TransformGroup>
       </TransformGroup>
   </Scene>

@@ -79,7 +79,7 @@
 		
 		<!-- tire tracks (harvested) - Fahrspur in State 7 geändert für's Mulchen -->
 		<!-- 1 0 0 0 - tire tracks (harvested) -->
-        <foliageState name="tire tracks" numBlocksPerUnit="1">
+        <foliageState name="tire tracks" numBlocksPerUnit="1.5">
             <foliageShape>
                 <foliageLod blockShape="0>0|5" />
                 <foliageLod blockShape="0>1|5" />
