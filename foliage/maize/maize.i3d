@@ -6,6 +6,37 @@
   </Asset>
 
   <Files>
+    <File fileId="39" filename="maizeStage03LOD1_diffuse.png"/>
+    <File fileId="11" filename="maizeStage03_diffuse.png"/>
+    <File fileId="42" filename="maizeStage04LOD1_diffuse.png"/>
+    <File fileId="46" filename="maizeStage05semiLOD1_diffuse.png"/>
+    <File fileId="15" filename="stage4WithGrass.png"/>
+    <File fileId="18" filename="stage4WithGrass_alpha.png"/>
+    <File fileId="17" filename="stage4WithGrass_fmask.png"/>
+    <File fileId="16" filename="stage4WithGrass_normal.png"/>
+    <File fileId="19" filename="stage4bWithGrass.png"/>
+    <File fileId="24" filename="stage4dryWithGrass.png"/>
+    <File fileId="23" filename="stage4dryWithGrass_alpha.png"/>
+    <File fileId="22" filename="stage4dryWithGrass_fmask.png"/>
+    <File fileId="21" filename="stage4dryWithGrass_normal.png"/>
+    <File fileId="20" filename="stage4semidryWithGrass.png"/>
+    <File fileId="25" filename="stage5WithGrass.png"/>
+    <File fileId="28" filename="stage5deadWithGrass_alpha.dds"/>
+    <File fileId="27" filename="stage5deadWithGrass_fmask.png"/>
+    <File fileId="26" filename="stage5deadWithGrass_normal.png"/>
+    <File fileId="29" filename="stage6WithGrass.png"/>
+    <File fileId="32" filename="stage6alphaWithGrass.png"/>
+    <File fileId="31" filename="stage6fmaskWithGrass.png"/>
+    <File fileId="30" filename="stage6normalWithGrass.png"/>
+    <File fileId="65" filename="$data/foliage/grass/grassGreenMiddleLOD1_alpha.png"/>
+    <File fileId="63" filename="$data/foliage/grass/grassGreenMiddleLOD1_diffuse.png"/>
+    <File fileId="64" filename="$data/foliage/grass/grassGreenMiddleLOD1_normal.png"/>
+    <File fileId="62" filename="$data/foliage/grass/grassGreenSmallLOD1_alpha.png"/>
+    <File fileId="60" filename="$data/foliage/grass/grassGreenSmallLOD1_diffuse.png"/>
+    <File fileId="61" filename="$data/foliage/grass/grassGreenSmallLOD1_normal.png"/>
+    <File fileId="68" filename="$data/foliage/grass/grassHarvestReadyLOD1_alpha.png"/>
+    <File fileId="66" filename="$data/foliage/grass/grassHarvestReadyLOD1_diffuse.png"/>
+    <File fileId="67" filename="$data/foliage/grass/grassHarvestReadyLOD1_normal.png"/>
     <File fileId="35" filename="$data/foliage/maize/maizeStage01LOD1_alpha.png"/>
     <File fileId="33" filename="$data/foliage/maize/maizeStage01LOD1_diffuse.png"/>
     <File fileId="34" filename="$data/foliage/maize/maizeStage01LOD1_normal.png"/>
@@ -37,33 +68,33 @@
     <File fileId="55" filename="$data/foliage/maize/maizeStage07LOD1_alpha.png"/>
     <File fileId="53" filename="$data/foliage/maize/maizeStage07LOD1_diffuse.png"/>
     <File fileId="54" filename="$data/foliage/maize/maizeStage07LOD1_normal.png"/>
+    <File fileId="59" filename="$data/foliage/meadow/meadowDLC_grassGreenSmallLOD_alpha_H.png"/>
+    <File fileId="56" filename="$data/foliage/meadow/meadowDLC_grassGreenSmallLOD_diffuse_H.png"/>
+    <File fileId="57" filename="$data/foliage/meadow/meadowDLC_grassGreenSmallLOD_normal_H.png"/>
     <File fileId="4" filename="$data/shaders/fruitGrowthFoliageShader.xml"/>
-    <File fileId="39" filename="maizeStage03LOD1_diffuse.png"/>
-    <File fileId="11" filename="maizeStage03_diffuse.png"/>
-    <File fileId="42" filename="maizeStage04LOD1_diffuse.png"/>
-    <File fileId="46" filename="maizeStage05semiLOD1_diffuse.png"/>
-    <File fileId="15" filename="stage4WithGrass.png"/>
-    <File fileId="18" filename="stage4WithGrass_alpha.png"/>
-    <File fileId="17" filename="stage4WithGrass_fmask.png"/>
-    <File fileId="16" filename="stage4WithGrass_normal.png"/>
-    <File fileId="19" filename="stage4bWithGrass.png"/>
-    <File fileId="24" filename="stage4dryWithGrass.png"/>
-    <File fileId="23" filename="stage4dryWithGrass_alpha.png"/>
-    <File fileId="22" filename="stage4dryWithGrass_fmask.png"/>
-    <File fileId="21" filename="stage4dryWithGrass_normal.png"/>
-    <File fileId="20" filename="stage4semidryWithGrass.png"/>
-    <File fileId="25" filename="stage5WithGrass.png"/>
-    <File fileId="28" filename="stage5deadWithGrass_alpha.dds"/>
-    <File fileId="27" filename="stage5deadWithGrass_fmask.png"/>
-    <File fileId="26" filename="stage5deadWithGrass_normal.png"/>
-    <File fileId="29" filename="stage6WithGrass.png"/>
-    <File fileId="32" filename="stage6alphaWithGrass.png"/>
-    <File fileId="31" filename="stage6fmaskWithGrass.png"/>
-    <File fileId="30" filename="stage6normalWithGrass.png"/>
+    <File fileId="58" filename="$data/shared/default_specular.png"/>
   </Files>
 
 
   <Materials>
+    <Material name="grassGreenMiddleLOD1_mat" materialId="129" customShaderId="4" customShaderVariation="BILLBOARD">
+      <Texture fileId="63"/>
+      <Normalmap fileId="64"/>
+      <Custommap name="alphaMap" fileId="65"/>
+      <CustomParameter name="snowScale" value="0.29 0 3 0"/>
+    </Material>
+    <Material name="grassGreenSMallLOD1_mat" materialId="131" customShaderId="4" customShaderVariation="BILLBOARD">
+      <Texture fileId="60"/>
+      <Normalmap fileId="61"/>
+      <Custommap name="alphaMap" fileId="62"/>
+      <CustomParameter name="snowScale" value="0.29 0 3 0"/>
+    </Material>
+    <Material name="grassHarvestReadyLOD1_mat" materialId="130" customShaderId="4" customShaderVariation="BILLBOARD">
+      <Texture fileId="66"/>
+      <Normalmap fileId="67"/>
+      <Custommap name="alphaMap" fileId="68"/>
+      <CustomParameter name="snowScale" value="0.29 0 3 0"/>
+    </Material>
     <Material name="maizeStage01_mat" materialId="5" customShaderId="4">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
@@ -143,7 +174,14 @@
       <CustomParameter name="windScale" value="0 4 4 0"/>
       <CustomParameter name="snowScale" value="0.4 4 0 0"/>
     </Material>
-    <Material name="stage4_mat" materialId="17" customShaderId="4">
+    <Material name="meadowDLC_grassGreenSmallLOD_mat" materialId="18" customShaderId="4" customShaderVariation="BILLBOARD_SEASONAL">
+      <Texture fileId="56"/>
+      <Normalmap fileId="57"/>
+      <Glossmap fileId="58"/>
+      <Custommap name="alphaMap" fileId="59"/>
+      <CustomParameter name="snowScale" value="0.25 0 0 2"/>
+    </Material>
+    <Material name="stage4_mat" materialId="20" customShaderId="4">
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Glossmap fileId="17"/>
@@ -151,7 +189,7 @@
       <CustomParameter name="windScale" value="1 45 0 0"/>
       <CustomParameter name="snowScale" value="0.45 0 0 0"/>
     </Material>
-    <Material name="stage4b_mat" materialId="18" customShaderId="4">
+    <Material name="stage4b_mat" materialId="21" customShaderId="4">
       <Texture fileId="19"/>
       <Normalmap fileId="16"/>
       <Glossmap fileId="17"/>
@@ -159,7 +197,7 @@
       <CustomParameter name="windScale" value="1 45 0 0"/>
       <CustomParameter name="snowScale" value="0.45 0 0 0"/>
     </Material>
-    <Material name="stage4dry_mat" materialId="19" customShaderId="4">
+    <Material name="stage4dry_mat" materialId="22" customShaderId="4">
       <Texture fileId="24"/>
       <Normalmap fileId="21"/>
       <Glossmap fileId="22"/>
@@ -167,7 +205,7 @@
       <CustomParameter name="windScale" value="1 45 0 0"/>
       <CustomParameter name="snowScale" value="0.45 0 0 0"/>
     </Material>
-    <Material name="stage4semidry_mat" materialId="20" customShaderId="4">
+    <Material name="stage4semidry_mat" materialId="23" customShaderId="4">
       <Texture fileId="20"/>
       <Normalmap fileId="21"/>
       <Glossmap fileId="22"/>
@@ -175,7 +213,7 @@
       <CustomParameter name="windScale" value="1 45 0 0"/>
       <CustomParameter name="snowScale" value="0.45 0 0 0"/>
     </Material>
-    <Material name="stage5deadwithgrass_mat" materialId="21" customShaderId="4">
+    <Material name="stage5deadwithgrass_mat" materialId="24" customShaderId="4">
       <Texture fileId="25"/>
       <Normalmap fileId="26"/>
       <Glossmap fileId="27"/>
@@ -183,7 +221,7 @@
       <CustomParameter name="windScale" value="1 45 0 0"/>
       <CustomParameter name="snowScale" value="0.45 0 0 0"/>
     </Material>
-    <Material name="stage6_mat" materialId="22" customShaderId="4">
+    <Material name="stage6_mat" materialId="25" customShaderId="4">
       <Texture fileId="29"/>
       <Normalmap fileId="30" bumpDepth="0"/>
       <Glossmap fileId="31"/>
@@ -202,58 +240,62 @@
   </Dynamics>
 
   <Scene>
-      <TransformGroup name="maize" nodeId="64">
-        <TransformGroup name="LOD0" nodeId="65">
-          <Shape shapeId="1" name="stage1_greenSmall01" clipDistance="500" nodeId="66" materialIds="5" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="stage1_greenSmall02" clipDistance="500" nodeId="67" materialIds="5" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="stage2_greenMiddle01" clipDistance="500" nodeId="68" materialIds="7" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="4" name="stage2_greenMiddle02" clipDistance="500" nodeId="69" materialIds="7" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="5" name="stage3_greenBig01" clipDistance="500" nodeId="70" materialIds="9" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="6" name="stage3_greenBig02" clipDistance="500" nodeId="71" materialIds="9" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="7" name="stage4_harvestReadyGreen01" clipDistance="500" nodeId="72" materialIds="17" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="8" name="stage4_harvestReadyGreen02" clipDistance="500" nodeId="73" materialIds="17" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="7" name="stage4_harvestReadyGreenB01" clipDistance="500" nodeId="74" materialIds="18" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="8" name="stage4_harvestReadyGreenB02" clipDistance="500" nodeId="75" materialIds="18" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="9" name="stage5_harvestReadySemi01" clipDistance="500" nodeId="76" materialIds="20" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="10" name="stage5_harvestReadySemi02" clipDistance="500" nodeId="77" materialIds="20" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="9" name="stage5_harvestReady01" clipDistance="500" nodeId="78" materialIds="19" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="10" name="stage5_harvestReady02" clipDistance="500" nodeId="79" materialIds="19" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="11" name="stage6_dead01" clipDistance="500" nodeId="80" materialIds="21" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="12" name="stage6_dead02" clipDistance="500" nodeId="85" materialIds="21" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="13" name="stage8_wheels01" clipDistance="500" nodeId="81" materialIds="22" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="14" name="stage8_wheels02" clipDistance="500" nodeId="82" materialIds="22" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="15" name="stage8_wheels03" clipDistance="500" nodeId="83" materialIds="22" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="16" name="stage8_wheels04" clipDistance="500" nodeId="84" materialIds="22" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="17" name="stage7_cut01" clipDistance="500" nodeId="86" materialIds="22" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="18" name="stage7_cut02" clipDistance="500" nodeId="87" materialIds="22" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="19" name="stage7_cut03" clipDistance="500" nodeId="88" materialIds="22" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="20" name="stage7_cut04" clipDistance="500" nodeId="89" materialIds="22" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="maize" nodeId="70">
+        <TransformGroup name="LOD0" nodeId="71">
+          <Shape shapeId="1" name="stage1_greenSmall01" clipDistance="500" nodeId="72" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="stage1_greenSmall02" clipDistance="500" nodeId="73" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="stage2_greenMiddle01" clipDistance="500" nodeId="74" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="stage2_greenMiddle02" clipDistance="500" nodeId="75" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="stage3_greenBig01" clipDistance="500" nodeId="76" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="stage3_greenBig02" clipDistance="500" nodeId="77" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="stage4_harvestReadyGreen01" clipDistance="500" nodeId="78" materialIds="20" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="stage4_harvestReadyGreen02" clipDistance="500" nodeId="79" materialIds="20" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="stage4_harvestReadyGreenB01" clipDistance="500" nodeId="80" materialIds="21" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="stage4_harvestReadyGreenB02" clipDistance="500" nodeId="81" materialIds="21" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="9" name="stage5_harvestReadySemi01" clipDistance="500" nodeId="82" materialIds="23" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="stage5_harvestReadySemi02" clipDistance="500" nodeId="83" materialIds="23" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="9" name="stage5_harvestReady01" clipDistance="500" nodeId="84" materialIds="22" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="stage5_harvestReady02" clipDistance="500" nodeId="85" materialIds="22" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="11" name="stage6_dead01" clipDistance="500" nodeId="86" materialIds="24" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="stage6_dead02" clipDistance="500" nodeId="87" materialIds="24" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="13" name="stage8_wheels01" clipDistance="500" nodeId="88" materialIds="25" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="14" name="stage8_wheels02" clipDistance="500" nodeId="89" materialIds="25" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="15" name="stage8_wheels03" clipDistance="500" nodeId="90" materialIds="25" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="16" name="stage8_wheels04" clipDistance="500" nodeId="91" materialIds="25" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="17" name="stage7_cut01" clipDistance="500" nodeId="92" materialIds="25" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="18" name="stage7_cut02" clipDistance="500" nodeId="93" materialIds="25" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="19" name="stage7_cut03" clipDistance="500" nodeId="94" materialIds="25" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="20" name="stage7_cut04" clipDistance="500" nodeId="95" materialIds="25" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="LOD1" visibility="false" nodeId="90">
-          <Shape shapeId="21" name="stage1LOD1_greenSmall01" clipDistance="500" nodeId="91" materialIds="6" receiveShadows="true"/>
-          <Shape shapeId="22" name="stage1LOD1_greenSmall02" clipDistance="500" nodeId="92" materialIds="6" receiveShadows="true"/>
-          <Shape shapeId="23" name="stage2LOD1_greenMiddle01" clipDistance="500" nodeId="93" materialIds="8" receiveShadows="true"/>
-          <Shape shapeId="24" name="stage2LOD1_greenMiddle02" clipDistance="500" nodeId="94" materialIds="8" receiveShadows="true"/>
-          <Shape shapeId="25" name="stage3LOD1_greenBig01" clipDistance="500" nodeId="95" materialIds="10" receiveShadows="true"/>
-          <Shape shapeId="26" name="stage3LOD1_greenBig02" clipDistance="500" nodeId="96" materialIds="10" receiveShadows="true"/>
-          <Shape shapeId="27" name="stage4LOD1_harvestReadyGreen01" clipDistance="500" nodeId="97" materialIds="12" receiveShadows="true"/>
-          <Shape shapeId="28" name="stage4LOD1_harvestReadyGreen02" clipDistance="500" nodeId="98" materialIds="12" receiveShadows="true"/>
-          <Shape shapeId="27" name="stage4LOD1_harvestReadyGreenB01" clipDistance="500" nodeId="99" materialIds="11" receiveShadows="true"/>
-          <Shape shapeId="28" name="stage4LOD1_harvestReadyGreenB02" clipDistance="500" nodeId="100" materialIds="11" receiveShadows="true"/>
-          <Shape shapeId="29" name="stage5LOD1_harvestReadySemi01" clipDistance="500" nodeId="101" materialIds="14" receiveShadows="true"/>
-          <Shape shapeId="30" name="stage5LOD1_harvestReadySemi02" clipDistance="500" nodeId="102" materialIds="14" receiveShadows="true"/>
-          <Shape shapeId="29" name="stage5LOD1_harvestReady01" clipDistance="500" nodeId="103" materialIds="13" receiveShadows="true"/>
-          <Shape shapeId="30" name="stage5LOD1_harvestReady02" clipDistance="500" nodeId="104" materialIds="13" receiveShadows="true"/>
-          <Shape shapeId="31" name="stage6LOD1_dead01" clipDistance="500" nodeId="105" materialIds="15" receiveShadows="true"/>
-          <Shape shapeId="32" name="stage6LOD1_dead02" clipDistance="500" nodeId="106" materialIds="15" receiveShadows="true"/>
-          <Shape shapeId="33" name="stage8LOD1_wheels01" clipDistance="500" nodeId="107" materialIds="16" receiveShadows="true"/>
-          <Shape shapeId="34" name="stage8LOD1_wheels02" clipDistance="500" nodeId="108" materialIds="16" receiveShadows="true"/>
-          <Shape shapeId="35" name="stage8LOD1_wheels03" clipDistance="500" nodeId="109" materialIds="16" receiveShadows="true"/>
-          <Shape shapeId="36" name="stage8LOD1_wheels04" clipDistance="500" nodeId="110" materialIds="16" receiveShadows="true"/>
-          <Shape shapeId="37" name="stage7LOD1_cut01" clipDistance="500" nodeId="111" materialIds="16" receiveShadows="true"/>
-          <Shape shapeId="38" name="stage7LOD1_cut02" clipDistance="500" nodeId="112" materialIds="16" receiveShadows="true"/>
-          <Shape shapeId="39" name="stage7LOD1_cut03" clipDistance="500" nodeId="113" materialIds="16" receiveShadows="true"/>
-          <Shape shapeId="40" name="stage7LOD1_cut02" clipDistance="500" nodeId="114" materialIds="16" receiveShadows="true"/>
+        <TransformGroup name="LOD1" nodeId="96">
+          <Shape shapeId="21" name="stage1LOD1_greenSmall01" clipDistance="500" nodeId="97" materialIds="6" receiveShadows="true"/>
+          <Shape shapeId="22" name="stage1LOD1_greenSmall02" clipDistance="500" nodeId="98" materialIds="6" receiveShadows="true"/>
+          <Shape shapeId="23" name="stage2LOD1_greenMiddle01" clipDistance="500" nodeId="99" materialIds="8" receiveShadows="true"/>
+          <Shape shapeId="24" name="stage2LOD1_greenMiddle02" clipDistance="500" nodeId="100" materialIds="8" receiveShadows="true"/>
+          <Shape shapeId="25" name="stage3LOD1_greenBig01" clipDistance="500" nodeId="101" materialIds="10" receiveShadows="true"/>
+          <Shape shapeId="26" name="stage3LOD1_greenBig02" clipDistance="500" nodeId="102" materialIds="10" receiveShadows="true"/>
+          <Shape shapeId="27" name="stage4LOD1_harvestReadyGreen01" clipDistance="500" nodeId="103" materialIds="12" receiveShadows="true"/>
+          <Shape shapeId="28" name="stage4LOD1_harvestReadyGreen02" clipDistance="500" nodeId="104" materialIds="12" receiveShadows="true"/>
+          <Shape shapeId="27" name="stage4LOD1_harvestReadyGreenB01" clipDistance="500" nodeId="105" materialIds="11" receiveShadows="true"/>
+          <Shape shapeId="28" name="stage4LOD1_harvestReadyGreenB02" clipDistance="500" nodeId="106" materialIds="11" receiveShadows="true"/>
+          <Shape shapeId="29" name="stage5LOD1_harvestReadySemi01" clipDistance="500" nodeId="107" materialIds="14" receiveShadows="true"/>
+          <Shape shapeId="30" name="stage5LOD1_harvestReadySemi02" clipDistance="500" nodeId="108" materialIds="14" receiveShadows="true"/>
+          <Shape shapeId="29" name="stage5LOD1_harvestReady01" clipDistance="500" nodeId="109" materialIds="13" receiveShadows="true"/>
+          <Shape shapeId="30" name="stage5LOD1_harvestReady02" clipDistance="500" nodeId="110" materialIds="13" receiveShadows="true"/>
+          <Shape shapeId="31" name="stage6LOD1_dead01" clipDistance="500" nodeId="111" materialIds="15" receiveShadows="true"/>
+          <Shape shapeId="32" name="stage6LOD1_dead02" clipDistance="500" nodeId="112" materialIds="15" receiveShadows="true"/>
+          <Shape shapeId="33" name="stage8LOD1_wheels01" clipDistance="500" nodeId="113" materialIds="16" receiveShadows="true"/>
+          <Shape shapeId="34" name="stage8LOD1_wheels02" clipDistance="500" nodeId="114" materialIds="16" receiveShadows="true"/>
+          <Shape shapeId="35" name="stage8LOD1_wheels03" clipDistance="500" nodeId="115" materialIds="16" receiveShadows="true"/>
+          <Shape shapeId="36" name="stage8LOD1_wheels04" clipDistance="500" nodeId="116" materialIds="16" receiveShadows="true"/>
+          <Shape shapeId="37" name="stage7LOD1_cut01" clipDistance="500" nodeId="117" materialIds="16" receiveShadows="true"/>
+          <Shape shapeId="38" name="stage7LOD1_cut02" clipDistance="500" nodeId="118" materialIds="16" receiveShadows="true"/>
+          <Shape shapeId="39" name="stage7LOD1_cut03" clipDistance="500" nodeId="119" materialIds="16" receiveShadows="true"/>
+          <Shape shapeId="40" name="stage7LOD1_cut02" clipDistance="500" nodeId="120" materialIds="16" receiveShadows="true"/>
+          <Shape shapeId="41" name="greenSmall" translation="-0.00755279 0 -0.0202608" clipDistance="500" nodeId="123" materialIds="18" receiveShadows="true"/>
+          <Shape shapeId="42" name="greenSmall" clipDistance="500" nodeId="148" materialIds="131" receiveShadows="true"/>
+          <Shape shapeId="43" name="greenMiddle" clipDistance="500" nodeId="149" materialIds="129" receiveShadows="true"/>
+          <Shape shapeId="44" name="harvestReady" clipDistance="500" nodeId="150" materialIds="130" receiveShadows="true"/>
         </TransformGroup>
       </TransformGroup>
   </Scene>
