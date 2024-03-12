@@ -87,7 +87,7 @@
         </fruitType>
         <fruitType name="potato" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
-            <cultivation needsSeeding="true" allowsSeeding="true" directionSnapAngle="90" alignsToSun="false" seedUsagePerSqm="0.35" />
+            <cultivation needsSeeding="true" needsRolling="false" allowsSeeding="true" directionSnapAngle="90" alignsToSun="false" seedUsagePerSqm="0.35" />
             <harvest minHarvestingGrowthState="9" maxHarvestingGrowthState="9" cutState="8" allowsPartialGrowthState="false" literPerSqm="4.13" beeYieldBonusPercentage="0.05"/>
             <harvestGroundTypeChange groundType="SOWN" />
             <growth witheredState="7" numGrowthStates="6" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />

@@ -29,37 +29,37 @@
 
 
   <Materials>
-    <Material name="oat01LOD_mat" materialId="101" customShaderId="3" customShaderVariation="BILLBOARD">
+    <Material name="oat01LOD_mat" materialId="5" customShaderId="3" customShaderVariation="BILLBOARD">
       <Texture fileId="6"/>
       <Normalmap fileId="7"/>
       <Custommap name="alphaMap" fileId="8"/>
       <CustomParameter name="snowScale" value="0.245 0 0 0"/>
     </Material>
-    <Material name="oat02LOD_mat" materialId="102" customShaderId="3" customShaderVariation="BILLBOARD">
+    <Material name="oat02LOD_mat" materialId="6" customShaderId="3" customShaderVariation="BILLBOARD">
       <Texture fileId="9"/>
       <Normalmap fileId="10"/>
       <Custommap name="alphaMap" fileId="11"/>
       <CustomParameter name="snowScale" value="0.16 0 0 0"/>
     </Material>
-    <Material name="oat03LOD_mat" materialId="103" customShaderId="3" customShaderVariation="BILLBOARD">
+    <Material name="oat03LOD_mat" materialId="7" customShaderId="3" customShaderVariation="BILLBOARD">
       <Texture fileId="12"/>
       <Normalmap fileId="13"/>
       <Custommap name="alphaMap" fileId="14"/>
       <CustomParameter name="snowScale" value="0.23 0 0 0"/>
     </Material>
-    <Material name="oat04LOD_mat" materialId="104" customShaderId="3" customShaderVariation="BILLBOARD">
+    <Material name="oat04LOD_mat" materialId="8" customShaderId="3" customShaderVariation="BILLBOARD">
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Custommap name="alphaMap" fileId="17"/>
       <CustomParameter name="snowScale" value="0.23 0 0 0"/>
     </Material>
-    <Material name="oat05LOD_mat" materialId="105" customShaderId="3" customShaderVariation="BILLBOARD">
+    <Material name="oat05LOD_mat" materialId="9" customShaderId="3" customShaderVariation="BILLBOARD">
       <Texture fileId="18"/>
       <Normalmap fileId="19"/>
       <Custommap name="alphaMap" fileId="20"/>
       <CustomParameter name="snowScale" value="0.15 0 0 0"/>
     </Material>
-    <Material name="oat_mat" materialId="106" customShaderId="3">
+    <Material name="oat_mat" materialId="10" customShaderId="3">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Custommap name="alphaMap" fileId="5"/>
@@ -76,23 +76,24 @@
   </Dynamics>
 
   <Scene>
-      <TransformGroup name="oat" nodeId="121">
-        <TransformGroup name="LOD0" nodeId="122">
-          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="123" materialIds="106" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="124" materialIds="106" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="125" materialIds="106" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="4" name="harvestReady" clipDistance="500" nodeId="126" materialIds="106" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="127" materialIds="106" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="6" name="oat_tiretracks" rotation="-4.32571e-06 -0 0" clipDistance="500" nodeId="141" materialIds="106" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="129" materialIds="106" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="oat" nodeId="26">
+        <TransformGroup name="LOD0" nodeId="27">
+          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="28" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="29" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="30" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="harvestReady" clipDistance="500" nodeId="31" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="32" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="oat_tiretracks" rotation="-4.32571e-06 -0 0" clipDistance="500" nodeId="33" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="34" materialIds="10" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="LOD1" nodeId="130">
-          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="131" materialIds="101" receiveShadows="true"/>
-          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="132" materialIds="102" receiveShadows="true"/>
-          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="133" materialIds="103" receiveShadows="true"/>
-          <Shape shapeId="11" name="harvestReady" clipDistance="500" nodeId="134" materialIds="104" receiveShadows="true"/>
-          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="135" materialIds="105" receiveShadows="true"/>
-          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="136" materialIds="104" receiveShadows="true"/>
+        <TransformGroup name="LOD1" nodeId="35">
+          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="36" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="37" materialIds="6" receiveShadows="true"/>
+          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="38" materialIds="7" receiveShadows="true"/>
+          <Shape shapeId="11" name="harvestReady" clipDistance="500" nodeId="39" materialIds="8" receiveShadows="true"/>
+          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="40" materialIds="9" receiveShadows="true"/>
+          <Shape shapeId="13" name="oat_tiretracksLOD" clipDistance="500" nodeId="41" materialIds="8" receiveShadows="true"/>
+          <Shape shapeId="14" name="oat_cutLOD" clipDistance="500" nodeId="42" materialIds="8" receiveShadows="true"/>
         </TransformGroup>
       </TransformGroup>
   </Scene>

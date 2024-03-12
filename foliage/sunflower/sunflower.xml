@@ -142,7 +142,7 @@
         <foliageState name="harvested" >
             <foliageShape>
                 <foliageLod blockShape="0>0|12" />
-                <foliageLod blockShape="0>1|8" />
+                <foliageLod blockShape="0>1|9" />
             </foliageShape>
         </foliageState>
 		<!--  -->

@@ -138,7 +138,7 @@
           <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="34" materialIds="9" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="4" name="harvestReadyGreen" clipDistance="500" nodeId="35" materialIds="11" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="5" name="dead" clipDistance="500" nodeId="36" materialIds="13" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="6" name="sorghum_tiretracks" translation="0 -5.98903e-08 0" nodeId="54" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="sorghum_tiretracks" translation="0 -5.98903e-08 0" nodeId="37" materialIds="11" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="7" name="cut" clipDistance="500" nodeId="38" materialIds="11" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
         <TransformGroup name="LOD1" nodeId="39">
@@ -147,7 +147,8 @@
           <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="42" materialIds="10" receiveShadows="true"/>
           <Shape shapeId="11" name="harvestReadyGreen" clipDistance="500" nodeId="43" materialIds="12" receiveShadows="true"/>
           <Shape shapeId="12" name="dead" clipDistance="500" nodeId="44" materialIds="14" receiveShadows="true"/>
-          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="45" materialIds="15" receiveShadows="true"/>
+          <Shape shapeId="13" name="tiretrackLOD1" nodeId="50" materialIds="15" receiveShadows="true"/>
+          <Shape shapeId="14" name="cut" clipDistance="500" nodeId="45" materialIds="15" receiveShadows="true"/>
         </TransformGroup>
       </TransformGroup>
   </Scene>

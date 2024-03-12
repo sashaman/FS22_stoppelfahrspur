@@ -136,23 +136,24 @@
   </Dynamics>
 
   <Scene>
-      <TransformGroup name="barley" static="true" nodeId="31">
-        <TransformGroup name="LOD0" static="true" nodeId="32">
-          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="33" materialIds="5" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="34" materialIds="7" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="35" materialIds="9" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="4" name="harvestReady" clipDistance="500" nodeId="36" materialIds="11" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="37" materialIds="13" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="6" name="barley_tiretracks" clipDistance="500" nodeId="50" materialIds="15" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="39" materialIds="15" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="barley" static="true" nodeId="32">
+        <TransformGroup name="LOD0" static="true" nodeId="33">
+          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="34" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="35" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="36" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="harvestReady" clipDistance="500" nodeId="37" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="38" materialIds="13" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="barley_tiretracks" clipDistance="500" nodeId="39" materialIds="15" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="40" materialIds="15" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="LOD1" nodeId="40">
-          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="41" materialIds="6" receiveShadows="true"/>
-          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="42" materialIds="8" receiveShadows="true"/>
-          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="43" materialIds="10" receiveShadows="true"/>
-          <Shape shapeId="11" name="harvestReady" clipDistance="500" nodeId="44" materialIds="12" receiveShadows="true"/>
-          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="45" materialIds="14" receiveShadows="true"/>
-          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="46" materialIds="16" receiveShadows="true"/>
+        <TransformGroup name="LOD1" nodeId="41">
+          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="42" materialIds="6" receiveShadows="true"/>
+          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="43" materialIds="8" receiveShadows="true"/>
+          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="44" materialIds="10" receiveShadows="true"/>
+          <Shape shapeId="11" name="harvestReady" clipDistance="500" nodeId="45" materialIds="12" receiveShadows="true"/>
+          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="46" materialIds="14" receiveShadows="true"/>
+          <Shape shapeId="13" name="tiretracks" nodeId="47" materialIds="16" receiveShadows="true"/>
+          <Shape shapeId="14" name="cut" clipDistance="500" nodeId="48" materialIds="16" receiveShadows="true"/>
         </TransformGroup>
       </TransformGroup>
   </Scene>

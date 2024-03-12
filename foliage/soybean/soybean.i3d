@@ -52,78 +52,78 @@
 
 
   <Materials>
-    <Material name="soybean_mat" materialId="190" customShaderId="4">
+    <Material name="soybean_mat" materialId="5" customShaderId="4">
       <Texture fileId="23"/>
       <Normalmap fileId="24"/>
       <Custommap name="alphaMap" fileId="25"/>
       <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="soybeanStage01_mat" materialId="191" customShaderId="4">
+    <Material name="soybeanStage01_mat" materialId="6" customShaderId="4">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
       <Custommap name="alphaMap" fileId="6"/>
       <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="soybeanStage01LOD1_mat" materialId="192" specularColor="0.0156863 1 0.0156863" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="soybeanStage01LOD1_mat" materialId="7" specularColor="0.0156863 1 0.0156863" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="26"/>
       <Normalmap fileId="27"/>
       <Custommap name="alphaMap" fileId="29"/>
       <CustomParameter name="snowScale" value="0.25 0.02 0.02 3"/>
     </Material>
-    <Material name="soybeanStage02_mat" materialId="193" customShaderId="4">
+    <Material name="soybeanStage02_mat" materialId="8" customShaderId="4">
       <Texture fileId="7"/>
       <Normalmap fileId="8"/>
       <Glossmap fileId="9"/>
       <Custommap name="alphaMap" fileId="10"/>
       <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="soybeanStage02LOD1_mat" materialId="194" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="soybeanStage02LOD1_mat" materialId="9" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="30"/>
       <Normalmap fileId="31"/>
       <Custommap name="alphaMap" fileId="32"/>
       <CustomParameter name="snowScale" value="0.25 3 0 0"/>
     </Material>
-    <Material name="soybeanStage03_mat" materialId="195" customShaderId="4">
+    <Material name="soybeanStage03_mat" materialId="10" customShaderId="4">
       <Texture fileId="11"/>
       <Normalmap fileId="12"/>
       <Glossmap fileId="13"/>
       <Custommap name="alphaMap" fileId="14"/>
       <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="soybeanStage03LOD1_mat" materialId="196" specularColor="0.0156863 1 0.0156863" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="soybeanStage03LOD1_mat" materialId="11" specularColor="0.0156863 1 0.0156863" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="33"/>
       <Normalmap fileId="34"/>
       <Custommap name="alphaMap" fileId="35"/>
       <CustomParameter name="snowScale" value="0.25 0.02 0.02 3"/>
     </Material>
-    <Material name="soybeanStage04_mat" materialId="197" customShaderId="4">
+    <Material name="soybeanStage04_mat" materialId="12" customShaderId="4">
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Glossmap fileId="17"/>
       <Custommap name="alphaMap" fileId="18"/>
       <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="soybeanStage04LOD1_mat" materialId="198" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="soybeanStage04LOD1_mat" materialId="13" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="36"/>
       <Normalmap fileId="37"/>
       <Custommap name="alphaMap" fileId="38"/>
       <CustomParameter name="snowScale" value="0.25 0 3 0"/>
     </Material>
-    <Material name="soybeanStage05_mat" materialId="199" customShaderId="4">
+    <Material name="soybeanStage05_mat" materialId="14" customShaderId="4">
       <Texture fileId="19"/>
       <Normalmap fileId="20"/>
       <Glossmap fileId="21"/>
       <Custommap name="alphaMap" fileId="22"/>
       <CustomParameter name="snowScale" value="0.35 0 0 0"/>
     </Material>
-    <Material name="soybeanStage05LOD1_mat" materialId="200" specularColor="0.0156863 1 0.0156863" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="soybeanStage05LOD1_mat" materialId="15" specularColor="0.0156863 1 0.0156863" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="39"/>
       <Normalmap fileId="40"/>
       <Custommap name="alphaMap" fileId="41"/>
       <CustomParameter name="snowScale" value="0.25 0.02 0.02 3"/>
     </Material>
-    <Material name="soybeanStage06LOD1_mat" materialId="201" specularColor="0.0156863 1 0.0156863" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="soybeanStage06LOD1_mat" materialId="16" specularColor="0.0156863 1 0.0156863" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="42"/>
       <Normalmap fileId="43"/>
       <Custommap name="alphaMap" fileId="44"/>
@@ -140,23 +140,24 @@
   </Dynamics>
 
   <Scene>
-      <TransformGroup name="soybean" static="true" clipDistance="500" nodeId="216">
-        <TransformGroup name="LOD0" static="true" clipDistance="500" nodeId="217">
-          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="218" materialIds="191" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="219" materialIds="193" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="220" materialIds="195" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="4" name="harvestReady" clipDistance="500" nodeId="221" materialIds="197" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="222" materialIds="199" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="6" name="soybean_tiretracks" clipDistance="500" nodeId="236" materialIds="190" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="224" materialIds="190" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="soybean" static="true" clipDistance="500" nodeId="32">
+        <TransformGroup name="LOD0" static="true" clipDistance="500" nodeId="33">
+          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="34" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="35" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="36" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="harvestReady" clipDistance="500" nodeId="37" materialIds="12" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="38" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="soybean_tiretracks" clipDistance="500" nodeId="39" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="40" materialIds="5" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="LOD1" nodeId="225">
-          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="226" materialIds="192" receiveShadows="true"/>
-          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="227" materialIds="194" receiveShadows="true"/>
-          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="228" materialIds="196" receiveShadows="true"/>
-          <Shape shapeId="11" name="harvestReady" clipDistance="500" nodeId="229" materialIds="198" receiveShadows="true"/>
-          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="230" materialIds="200" receiveShadows="true"/>
-          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="231" materialIds="201" receiveShadows="true"/>
+        <TransformGroup name="LOD1" nodeId="41">
+          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="42" materialIds="7" receiveShadows="true"/>
+          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="43" materialIds="9" receiveShadows="true"/>
+          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="44" materialIds="11" receiveShadows="true"/>
+          <Shape shapeId="11" name="harvestReady" clipDistance="500" nodeId="45" materialIds="13" receiveShadows="true"/>
+          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="46" materialIds="15" receiveShadows="true"/>
+          <Shape shapeId="13" name="tiretracksLOD1" nodeId="47" materialIds="16" receiveShadows="true"/>
+          <Shape shapeId="14" name="cut" clipDistance="500" nodeId="48" materialIds="16" receiveShadows="true"/>
         </TransformGroup>
       </TransformGroup>
   </Scene>

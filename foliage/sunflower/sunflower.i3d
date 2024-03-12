@@ -41,61 +41,61 @@
 
 
   <Materials>
-    <Material name="sunflowerStage01_mat" materialId="238" customShaderId="3" customShaderVariation="PLANT_ROTATION">
+    <Material name="sunflowerStage01_mat" materialId="5" customShaderId="3" customShaderVariation="PLANT_ROTATION">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Custommap name="alphaMap" fileId="5"/>
       <CustomParameter name="snowScale" value="0.25 0 0 0"/>
     </Material>
-    <Material name="sunflowerStage01LOD1_mat" materialId="239" customShaderId="3" customShaderVariation="BILLBOARD">
+    <Material name="sunflowerStage01LOD1_mat" materialId="6" customShaderId="3" customShaderVariation="BILLBOARD">
       <Texture fileId="18"/>
       <Normalmap fileId="19"/>
       <Custommap name="alphaMap" fileId="20"/>
       <CustomParameter name="snowScale" value="0.17 0 3 0"/>
     </Material>
-    <Material name="sunflowerStage02_mat" materialId="240" customShaderId="3" customShaderVariation="PLANT_ROTATION">
+    <Material name="sunflowerStage02_mat" materialId="7" customShaderId="3" customShaderVariation="PLANT_ROTATION">
       <Texture fileId="6"/>
       <Normalmap fileId="7"/>
       <Custommap name="alphaMap" fileId="8"/>
       <CustomParameter name="snowScale" value="0.25 0 0 0"/>
     </Material>
-    <Material name="sunflowerStage02LOD1_mat" materialId="241" customShaderId="3" customShaderVariation="BILLBOARD">
+    <Material name="sunflowerStage02LOD1_mat" materialId="8" customShaderId="3" customShaderVariation="BILLBOARD">
       <Texture fileId="21"/>
       <Normalmap fileId="22"/>
       <Custommap name="alphaMap" fileId="23"/>
       <CustomParameter name="snowScale" value="0.17 0 3 0"/>
     </Material>
-    <Material name="sunflowerStage03_mat" materialId="242" customShaderId="3" customShaderVariation="PLANT_ROTATION">
+    <Material name="sunflowerStage03_mat" materialId="9" customShaderId="3" customShaderVariation="PLANT_ROTATION">
       <Texture fileId="9"/>
       <Normalmap fileId="10"/>
       <Custommap name="alphaMap" fileId="11"/>
       <CustomParameter name="snowScale" value="0.25 0 0 0"/>
     </Material>
-    <Material name="sunflowerStage04_mat" materialId="243" customShaderId="3" customShaderVariation="PLANT_ROTATION">
+    <Material name="sunflowerStage04_mat" materialId="10" customShaderId="3" customShaderVariation="PLANT_ROTATION">
       <Texture fileId="12"/>
       <Normalmap fileId="13"/>
       <Custommap name="alphaMap" fileId="14"/>
       <CustomParameter name="snowScale" value="0.25 0 0 0"/>
     </Material>
-    <Material name="sunflowerStage04LOD1_mat" materialId="244" customShaderId="3" customShaderVariation="BILLBOARD">
+    <Material name="sunflowerStage04LOD1_mat" materialId="11" customShaderId="3" customShaderVariation="BILLBOARD">
       <Texture fileId="24"/>
       <Normalmap fileId="25"/>
       <Custommap name="alphaMap" fileId="26"/>
       <CustomParameter name="snowScale" value="0.17 0 3 0"/>
     </Material>
-    <Material name="sunflowerStage05_mat" materialId="245" customShaderId="3" customShaderVariation="PLANT_ROTATION">
+    <Material name="sunflowerStage05_mat" materialId="12" customShaderId="3" customShaderVariation="PLANT_ROTATION">
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Custommap name="alphaMap" fileId="17"/>
       <CustomParameter name="snowScale" value="0.25 0 0 0"/>
     </Material>
-    <Material name="sunflowerStage05LOD1_mat" materialId="246" customShaderId="3" customShaderVariation="BILLBOARD">
+    <Material name="sunflowerStage05LOD1_mat" materialId="13" customShaderId="3" customShaderVariation="BILLBOARD">
       <Texture fileId="27"/>
       <Normalmap fileId="28"/>
       <Custommap name="alphaMap" fileId="29"/>
       <CustomParameter name="snowScale" value="0.17 0 3 0"/>
     </Material>
-    <Material name="sunflowerStage06LOD1_mat" materialId="247" customShaderId="3" customShaderVariation="BILLBOARD">
+    <Material name="sunflowerStage06LOD1_mat" materialId="14" customShaderId="3" customShaderVariation="BILLBOARD">
       <Texture fileId="30"/>
       <Normalmap fileId="31"/>
       <Custommap name="alphaMap" fileId="32"/>
@@ -112,32 +112,33 @@
   </Dynamics>
 
   <Scene>
-      <TransformGroup name="sunflower" clipDistance="500" nodeId="271">
-        <TransformGroup name="LOD0" nodeId="272">
-          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="273" materialIds="238" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="274" materialIds="240" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="greenBig01" clipDistance="500" nodeId="275" materialIds="242" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="4" name="greenBig02" clipDistance="500" nodeId="276" materialIds="242" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="5" name="greenBig03" clipDistance="500" nodeId="277" materialIds="242" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="6" name="greenBig04" clipDistance="500" nodeId="278" materialIds="242" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="7" name="harvestReady" clipDistance="500" nodeId="279" materialIds="243" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="8" name="dead" clipDistance="500" nodeId="280" materialIds="245" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="9" name="tiretracks1" clipDistance="500" nodeId="300" materialIds="243" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="10" name="tiretracks2" clipDistance="500" nodeId="302" materialIds="243" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="11" name="tiretracks3" clipDistance="500" nodeId="304" materialIds="243" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="12" name="tiretracks4" clipDistance="500" nodeId="306" materialIds="243" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="285" materialIds="243" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="sunflower" clipDistance="500" nodeId="38">
+        <TransformGroup name="LOD0" nodeId="39">
+          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="40" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="41" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="greenBig01" clipDistance="500" nodeId="42" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="greenBig02" clipDistance="500" nodeId="43" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="greenBig03" clipDistance="500" nodeId="44" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="greenBig04" clipDistance="500" nodeId="45" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="harvestReady" clipDistance="500" nodeId="46" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="dead" clipDistance="500" nodeId="47" materialIds="12" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="9" name="tiretracks1" clipDistance="500" nodeId="48" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="tiretracks2" clipDistance="500" nodeId="49" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="11" name="tiretracks3" clipDistance="500" nodeId="50" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="tiretracks4" clipDistance="500" nodeId="51" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="52" materialIds="10" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="LOD1" nodeId="286">
-          <Shape shapeId="14" name="greenSmall" clipDistance="500" nodeId="287" materialIds="239" receiveShadows="true"/>
-          <Shape shapeId="15" name="greenMiddle" clipDistance="500" nodeId="288" materialIds="241" receiveShadows="true"/>
-          <Shape shapeId="16" name="greenBig01" clipDistance="500" nodeId="289" materialIds="242" receiveShadows="true"/>
-          <Shape shapeId="17" name="greenBig02" clipDistance="500" nodeId="290" materialIds="242" receiveShadows="true"/>
-          <Shape shapeId="18" name="greenBig03" clipDistance="500" nodeId="291" materialIds="242" receiveShadows="true"/>
-          <Shape shapeId="19" name="greenBig04" clipDistance="500" nodeId="292" materialIds="242" receiveShadows="true"/>
-          <Shape shapeId="20" name="harvestReady" clipDistance="500" nodeId="293" materialIds="244" receiveShadows="true"/>
-          <Shape shapeId="21" name="dead" clipDistance="500" nodeId="294" materialIds="246" receiveShadows="true"/>
-          <Shape shapeId="22" name="cut" clipDistance="500" nodeId="295" materialIds="247" receiveShadows="true"/>
+        <TransformGroup name="LOD1" nodeId="53">
+          <Shape shapeId="14" name="greenSmall" clipDistance="500" nodeId="54" materialIds="6" receiveShadows="true"/>
+          <Shape shapeId="15" name="greenMiddle" clipDistance="500" nodeId="55" materialIds="8" receiveShadows="true"/>
+          <Shape shapeId="16" name="greenBig01" clipDistance="500" nodeId="56" materialIds="9" receiveShadows="true"/>
+          <Shape shapeId="17" name="greenBig02" clipDistance="500" nodeId="57" materialIds="9" receiveShadows="true"/>
+          <Shape shapeId="18" name="greenBig03" clipDistance="500" nodeId="58" materialIds="9" receiveShadows="true"/>
+          <Shape shapeId="19" name="greenBig04" clipDistance="500" nodeId="59" materialIds="9" receiveShadows="true"/>
+          <Shape shapeId="20" name="harvestReady" clipDistance="500" nodeId="60" materialIds="11" receiveShadows="true"/>
+          <Shape shapeId="21" name="dead" clipDistance="500" nodeId="61" materialIds="13" receiveShadows="true"/>
+          <Shape shapeId="22" name="tiretracksLOD1" nodeId="67" materialIds="14" receiveShadows="true"/>
+          <Shape shapeId="23" name="cut" clipDistance="500" nodeId="62" materialIds="14" receiveShadows="true"/>
         </TransformGroup>
       </TransformGroup>
   </Scene>

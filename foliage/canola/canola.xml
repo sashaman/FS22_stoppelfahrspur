@@ -119,10 +119,10 @@
         </foliageState>
 		<!-- harvested (cut) in State 12 geändert für's Mulchen -->
 		<!-- 1 1 0 1 - harvested (cut) -->
-        <foliageState name="harvested" width="1.3" height="1.8" numBlocksPerUnit="2.0">
+        <foliageState name="harvested" width="1.3" height="2.2" numBlocksPerUnit="2.0">
             <foliageShape>
                 <foliageLod blockShape="0>0|6" />
-                <foliageLod blockShape="0>1|5" />
+                <foliageLod blockShape="0>1|6" />
             </foliageShape>
         </foliageState>
         <!--  -->

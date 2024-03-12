@@ -90,7 +90,7 @@
         <foliageState name="harvested" height="0.75">
             <foliageShape>
                 <foliageLod blockShape="0>0|6" />
-                <foliageLod blockShape="0>1|5" />
+                <foliageLod blockShape="0>1|6" />
             </foliageShape>
         </foliageState>
     </foliageLayer>

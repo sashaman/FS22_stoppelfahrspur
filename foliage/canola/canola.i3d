@@ -49,7 +49,7 @@
 
 
   <Materials>
-    <Material name="canolaStage01_mat" materialId="54" customShaderId="4">
+    <Material name="canolaStage01_mat" materialId="5" customShaderId="4">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
@@ -57,13 +57,13 @@
       <CustomParameter name="windScale" value="1 36 0 0"/>
       <CustomParameter name="snowScale" value="0.36 0 0 0"/>
     </Material>
-    <Material name="canolaStage01LOD1_mat" materialId="55" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="canolaStage01LOD1_mat" materialId="6" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="23"/>
       <Normalmap fileId="24"/>
       <Custommap name="alphaMap" fileId="25"/>
       <CustomParameter name="snowScale" value="0.36 0 0 0"/>
     </Material>
-    <Material name="canolaStage02_mat" materialId="56" customShaderId="4">
+    <Material name="canolaStage02_mat" materialId="7" customShaderId="4">
       <Texture fileId="7"/>
       <Normalmap fileId="8"/>
       <Glossmap fileId="9"/>
@@ -71,13 +71,13 @@
       <CustomParameter name="windScale" value="1 36 0 0"/>
       <CustomParameter name="snowScale" value="0.36 0 0 0"/>
     </Material>
-    <Material name="canolaStage02LOD1_mat" materialId="57" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="canolaStage02LOD1_mat" materialId="8" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="26"/>
       <Normalmap fileId="27"/>
       <Custommap name="alphaMap" fileId="28"/>
       <CustomParameter name="snowScale" value="0.36 0 0 0"/>
     </Material>
-    <Material name="canolaStage03_mat" materialId="58" customShaderId="4">
+    <Material name="canolaStage03_mat" materialId="9" customShaderId="4">
       <Texture fileId="11"/>
       <Normalmap fileId="12"/>
       <Glossmap fileId="13"/>
@@ -85,13 +85,13 @@
       <CustomParameter name="windScale" value="1 36 0 0"/>
       <CustomParameter name="snowScale" value="0.36 0 0 0"/>
     </Material>
-    <Material name="canolaStage03LOD1_mat" materialId="59" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="canolaStage03LOD1_mat" materialId="10" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="29"/>
       <Normalmap fileId="30"/>
       <Custommap name="alphaMap" fileId="31"/>
       <CustomParameter name="snowScale" value="0.36 0 0 0"/>
     </Material>
-    <Material name="canolaStage04_mat" materialId="60" customShaderId="4">
+    <Material name="canolaStage04_mat" materialId="11" customShaderId="4">
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Glossmap fileId="17"/>
@@ -99,13 +99,13 @@
       <CustomParameter name="windScale" value="1 36 0 0"/>
       <CustomParameter name="snowScale" value="0.36 0 0 0"/>
     </Material>
-    <Material name="canolaStage04LOD1_mat" materialId="61" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="canolaStage04LOD1_mat" materialId="12" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="32"/>
       <Normalmap fileId="33"/>
       <Custommap name="alphaMap" fileId="34"/>
       <CustomParameter name="snowScale" value="0.36 0 0 0"/>
     </Material>
-    <Material name="canolaStage05_mat" materialId="62" customShaderId="4">
+    <Material name="canolaStage05_mat" materialId="13" customShaderId="4">
       <Texture fileId="19"/>
       <Normalmap fileId="20"/>
       <Glossmap fileId="21"/>
@@ -113,13 +113,13 @@
       <CustomParameter name="windScale" value="1 36 0 0"/>
       <CustomParameter name="snowScale" value="0.36 0 0 0"/>
     </Material>
-    <Material name="canolaStage05LOD1_mat" materialId="63" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="canolaStage05LOD1_mat" materialId="14" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="35"/>
       <Normalmap fileId="36"/>
       <Custommap name="alphaMap" fileId="37"/>
       <CustomParameter name="snowScale" value="0.36 4 0 0"/>
     </Material>
-    <Material name="canolaStage06LOD1_mat" materialId="64" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="canolaStage06LOD1_mat" materialId="15" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="38"/>
       <Normalmap fileId="39"/>
       <Custommap name="alphaMap" fileId="40"/>
@@ -136,23 +136,24 @@
   </Dynamics>
 
   <Scene>
-      <TransformGroup name="canola" static="true" density="0.0001" nodeId="79">
-        <TransformGroup name="LOD0" nodeId="80">
-          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="81" materialIds="54" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="82" materialIds="56" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="83" materialIds="58" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="4" name="harvestReady" clipDistance="500" nodeId="84" materialIds="60" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="85" materialIds="62" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="6" name="canola_tiretracks" translation="-0.0180125 -0.0604264 0.433949" rotation="-4.32571e-06 -0 0" clipDistance="500" nodeId="99" materialIds="60" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="87" materialIds="60" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="canola" static="true" density="0.0001" nodeId="30">
+        <TransformGroup name="LOD0" nodeId="31">
+          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="32" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="33" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="34" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="harvestReady" clipDistance="500" nodeId="35" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="dead" clipDistance="500" nodeId="36" materialIds="13" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="canola_tiretracks" translation="-0.0180125 -0.0604264 0.433949" rotation="-4.32571e-06 -0 0" clipDistance="500" nodeId="37" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="cut" clipDistance="500" nodeId="38" materialIds="11" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="LOD1" nodeId="88">
-          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="89" materialIds="55" receiveShadows="true"/>
-          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="90" materialIds="57" receiveShadows="true"/>
-          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="91" materialIds="59" receiveShadows="true"/>
-          <Shape shapeId="11" name="harvestReady" clipDistance="500" nodeId="92" materialIds="61" receiveShadows="true"/>
-          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="93" materialIds="63" receiveShadows="true"/>
-          <Shape shapeId="13" name="cut" clipDistance="500" nodeId="94" materialIds="64" receiveShadows="true"/>
+        <TransformGroup name="LOD1" nodeId="39">
+          <Shape shapeId="8" name="greenSmall" clipDistance="500" nodeId="40" materialIds="6" receiveShadows="true"/>
+          <Shape shapeId="9" name="greenMiddle" clipDistance="500" nodeId="41" materialIds="8" receiveShadows="true"/>
+          <Shape shapeId="10" name="greenBig" clipDistance="500" nodeId="42" materialIds="10" receiveShadows="true"/>
+          <Shape shapeId="11" name="harvestReady" clipDistance="500" nodeId="43" materialIds="12" receiveShadows="true"/>
+          <Shape shapeId="12" name="dead" clipDistance="500" nodeId="44" materialIds="14" receiveShadows="true"/>
+          <Shape shapeId="13" name="tiretracksLOD1" nodeId="58" materialIds="15" receiveShadows="true"/>
+          <Shape shapeId="14" name="cut" clipDistance="500" nodeId="45" materialIds="15" receiveShadows="true"/>
         </TransformGroup>
       </TransformGroup>
   </Scene>
